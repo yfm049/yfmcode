@@ -1,0 +1,20 @@
+Began to crack
+Find hack
+Bugs are found in
+To find loopholes, is being analyzed
+Analysis of vulnerability is completed, begin to match the models, please try later
+Matching test, are trying to, please try later
+Matching injected, please wait, waiting for the match
+The failure of matching, are re match, please try later
+Matching test, are trying to, please try later
+Matching injected, please wait, waiting for the match
+The failure of matching, are re match, please try later
+Matching test, are trying to, please try later
+Matching injected, please wait, waiting for the match
+The failure of matching, are re match, please try later
+Matching test, are trying to, please try later
+Matching injected, please wait, waiting for the match
+The failure of matching, are re match, please try later
+Complete matching, vulnerabilities have been found
+Complete type matching
+Complete

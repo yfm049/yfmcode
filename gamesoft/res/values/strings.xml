@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">游戏软件</string>
+    <string name="hello_world">Hello world!</string>
+    <color name="baise">#FFFFFF</color>
+    <color name="hongse">#00FF00</color>
+
+</resources>
