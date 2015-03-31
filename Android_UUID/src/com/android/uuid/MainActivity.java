@@ -44,7 +44,6 @@ public class MainActivity extends Activity {
 					new String[] { "name", "value" }, "name=?",
 					new String[] { "android_id" }, null, null, null);
 			if (cursor.moveToNext()) {
-				String name = cursor.getString(cursor.getColumnIndex("name"));
 				String value = cursor.getString(cursor.getColumnIndex("value"));
 				uuidtext.setText(value);
 			}
