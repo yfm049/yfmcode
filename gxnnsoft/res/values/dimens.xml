@@ -1,0 +1,4 @@
+<resources>
+	<dimen name="layoutpadding">2dip</dimen>
+	<dimen name="lpadding">3dip</dimen>
+</resources>
