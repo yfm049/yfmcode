@@ -1,0 +1,408 @@
+2014-06-0610:00:10[main:0]-[INFO]232324234
+2014-06-0610:00:10[main:149]-[DEBUG]Set parameter http.useragent = Jakarta Commons-HttpClient/3.0.1
+2014-06-0610:00:10[main:151]-[DEBUG]Set parameter http.protocol.version = HTTP/1.1
+2014-06-0610:00:10[main:152]-[DEBUG]Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2014-06-0610:00:10[main:152]-[DEBUG]Set parameter http.protocol.cookie-policy = rfc2109
+2014-06-0610:00:10[main:152]-[DEBUG]Set parameter http.protocol.element-charset = US-ASCII
+2014-06-0610:00:10[main:152]-[DEBUG]Set parameter http.protocol.content-charset = ISO-8859-1
+2014-06-0610:00:10[main:153]-[DEBUG]Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@949919e
+2014-06-0610:00:10[main:154]-[DEBUG]Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2014-06-0610:00:10[main:155]-[DEBUG]Set parameter http.connection.timeout = 60000
+2014-06-0610:00:10[main:158]-[DEBUG]Set parameter http.connection-manager.max-per-host = {HostConfiguration[]=200}
+2014-06-0610:00:10[main:158]-[DEBUG]Set parameter http.connection.stalecheck = true
+2014-06-0610:00:10[main:158]-[DEBUG]Set parameter http.tcp.nodelay = true
+2014-06-0610:00:10[main:158]-[DEBUG]Set parameter http.socket.timeout = 30000
+2014-06-0610:00:10[main:234]-[DEBUG]HttpMethodBase.addRequestHeader(Header)
+2014-06-0610:00:10[main:234]-[DEBUG]enter PostMethod.clearRequestBody()
+2014-06-0610:00:10[main:235]-[DEBUG]enter EntityEnclosingMethod.clearRequestBody()
+2014-06-0610:00:10[main:236]-[DEBUG]Java version: 1.7.0_45
+2014-06-0610:00:10[main:236]-[DEBUG]Java vendor: Oracle Corporation
+2014-06-0610:00:10[main:236]-[DEBUG]Java class path: D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\classes;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\bean-validator.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.annotation.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.ejb.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.enterprise.deploy.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.jms.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.management.j2ee.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.persistence.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.resource.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.security.auth.message.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.security.jacc.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.servlet.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.servlet.jsp.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.transaction.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\jaxb-api-osgi.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\jsr311-api.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\mail.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\webservices-api-osgi.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\weld-osgi-bundle.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\bonecp-0.7.1.RELEASE.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\commons-codec-1.2.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\commons-httpclient-3.0.1.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\commons-logging-1.0.3.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\ezmorph-1.0.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\gexin-rp-sdk-base-2.0.0.9.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\gexin-rp-sdk-http-3.0.0.2.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\gexin-rp-sdk-template-2.0.0.6.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\gson-2.2.4.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\guava-13.0.1.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\jackson-all-1.8.5.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\jpush-client-2.4.2.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\log4j-1.2.17.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\mysql-connector-java-5[1].0.5-bin.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\protobuf-java-2.4.1.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\slf4j-api-1.7.2.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\slf4j-nop-1.7.2.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\JSTL1.2.1\lib\javax.servlet.jsp.jstl.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\JSTL1.2.1\lib\jstl-impl.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\antlr-2.7.2.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\aopalliance-1.0.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\classworlds-1.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-beanutils-1.7.0.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-chain-1.2.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-collections-3.2.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-digester-2.0.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-fileupload-1.2.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-io-1.3.2.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-lang-2.3.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-logging-1.0.4.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-logging-api-1.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-validator-1.3.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\freemarker-2.3.16.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\javassist-3.7.ga.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\json-lib-2.1-jdk15.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\ognl-3.0.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\oro-2.0.8.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\sslext-1.2-0.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\struts2-convention-plugin-2.2.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\struts2-core-2.2.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\struts2-embeddedjsp-plugin-2.2.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\struts2-json-plugin-2.2.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\xwork-core-2.2.1.jar
+2014-06-0610:00:10[main:237]-[DEBUG]Operating system name: Windows 7
+2014-06-0610:00:10[main:237]-[DEBUG]Operating system architecture: amd64
+2014-06-0610:00:10[main:237]-[DEBUG]Operating system version: 6.1
+2014-06-0610:00:10[main:286]-[DEBUG]SUN 1.7: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS keystore; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2014-06-0610:00:10[main:286]-[DEBUG]SunRsaSign 1.7: Sun RSA signature provider
+2014-06-0610:00:10[main:286]-[DEBUG]SunEC 1.7: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2014-06-0610:00:10[main:286]-[DEBUG]SunJSSE 1.7: Sun JSSE provider(PKCS12, SunX509 key/trust factories, SSLv3, TLSv1)
+2014-06-0610:00:10[main:286]-[DEBUG]SunJCE 1.7: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2014-06-0610:00:10[main:287]-[DEBUG]SunJGSS 1.7: Sun (Kerberos v5, SPNEGO)
+2014-06-0610:00:10[main:287]-[DEBUG]SunSASL 1.7: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2014-06-0610:00:10[main:287]-[DEBUG]XMLDSig 1.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory)
+2014-06-0610:00:10[main:287]-[DEBUG]SunPCSC 1.7: Sun PC/SC provider
+2014-06-0610:00:10[main:287]-[DEBUG]SunMSCAPI 1.7: Sun's Microsoft Crypto API provider
+2014-06-0610:00:10[main:288]-[DEBUG]enter HttpClient.executeMethod(HttpMethod)
+2014-06-0610:00:10[main:288]-[DEBUG]enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+2014-06-0610:00:10[main:292]-[DEBUG]enter HttpConnectionManager.getConnectionWithTimeout(HostConfiguration, long)
+2014-06-0610:00:10[main:292]-[DEBUG]HttpConnectionManager.getConnection:  config = HostConfiguration[host=http://sdk.open.api.igexin.com], timeout = 0
+2014-06-0610:00:10[main:292]-[DEBUG]enter HttpConnectionManager.ConnectionPool.getHostPool(HostConfiguration)
+2014-06-0610:00:10[main:293]-[DEBUG]enter HttpConnectionManager.ConnectionPool.getHostPool(HostConfiguration)
+2014-06-0610:00:10[main:293]-[DEBUG]Allocating new connection, hostConfig=HostConfiguration[host=http://sdk.open.api.igexin.com]
+2014-06-0610:00:10[main:295]-[DEBUG]Attempt number 1 to process request
+2014-06-0610:00:10[main:295]-[DEBUG]enter HttpConnection.open()
+2014-06-0610:00:10[main:296]-[DEBUG]Open connection to sdk.open.api.igexin.com:80
+2014-06-0610:00:10[main:429]-[DEBUG]enter HttpMethodBase.execute(HttpState, HttpConnection)
+2014-06-0610:00:10[main:429]-[DEBUG]enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+2014-06-0610:00:10[main:429]-[DEBUG]enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+2014-06-0610:00:10[main:430]-[DEBUG]enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+2014-06-0610:00:10[main:431]-[DEBUG]>> "POST /apiex.htm HTTP/1.1[\r][\n]"
+2014-06-0610:00:10[main:431]-[DEBUG]enter HttpConnection.print(String)
+2014-06-0610:00:10[main:432]-[DEBUG]enter HttpConnection.write(byte[])
+2014-06-0610:00:10[main:432]-[DEBUG]enter HttpConnection.write(byte[], int, int)
+2014-06-0610:00:10[main:432]-[DEBUG]enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+2014-06-0610:00:10[main:432]-[DEBUG]enter EntityEnclosingMethod.addRequestHeaders(HttpState, HttpConnection)
+2014-06-0610:00:10[main:433]-[DEBUG]enter ExpectContinueMethod.addRequestHeaders(HttpState, HttpConnection)
+2014-06-0610:00:10[main:433]-[DEBUG]enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+2014-06-0610:00:10[main:433]-[DEBUG]enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+2014-06-0610:00:10[main:433]-[DEBUG]enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+2014-06-0610:00:10[main:433]-[DEBUG]Adding Host request header
+2014-06-0610:00:10[main:434]-[DEBUG]enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+2014-06-0610:00:10[main:443]-[DEBUG]enter HttpState.getCookies()
+2014-06-0610:00:10[main:443]-[DEBUG]enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+2014-06-0610:00:10[main:444]-[DEBUG]enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+2014-06-0610:00:10[main:444]-[DEBUG]enter EntityEnclosingMethod.addContentLengthRequestHeader(HttpState, HttpConnection)
+2014-06-0610:00:10[main:444]-[DEBUG]enter EntityEnclosingMethod.getRequestContentLength()
+2014-06-0610:00:10[main:444]-[DEBUG]enter PostMethod.hasRequestContent()
+2014-06-0610:00:10[main:445]-[DEBUG]enter EntityEnclosingMethod.hasRequestContent()
+2014-06-0610:00:10[main:445]-[DEBUG]HttpMethodBase.addRequestHeader(Header)
+2014-06-0610:00:10[main:445]-[DEBUG]>> "Content-Type: text/html;charset=UTF-8[\r][\n]"
+2014-06-0610:00:10[main:445]-[DEBUG]enter HttpConnection.print(String)
+2014-06-0610:00:10[main:446]-[DEBUG]enter HttpConnection.write(byte[])
+2014-06-0610:00:10[main:446]-[DEBUG]enter HttpConnection.write(byte[], int, int)
+2014-06-0610:00:10[main:446]-[DEBUG]>> "User-Agent: Jakarta Commons-HttpClient/3.0.1[\r][\n]"
+2014-06-0610:00:10[main:446]-[DEBUG]enter HttpConnection.print(String)
+2014-06-0610:00:10[main:446]-[DEBUG]enter HttpConnection.write(byte[])
+2014-06-0610:00:10[main:447]-[DEBUG]enter HttpConnection.write(byte[], int, int)
+2014-06-0610:00:10[main:447]-[DEBUG]>> "Host: sdk.open.api.igexin.com[\r][\n]"
+2014-06-0610:00:10[main:447]-[DEBUG]enter HttpConnection.print(String)
+2014-06-0610:00:10[main:448]-[DEBUG]enter HttpConnection.write(byte[])
+2014-06-0610:00:10[main:448]-[DEBUG]enter HttpConnection.write(byte[], int, int)
+2014-06-0610:00:10[main:448]-[DEBUG]>> "Content-Length: 473[\r][\n]"
+2014-06-0610:00:10[main:448]-[DEBUG]enter HttpConnection.print(String)
+2014-06-0610:00:10[main:448]-[DEBUG]enter HttpConnection.write(byte[])
+2014-06-0610:00:10[main:449]-[DEBUG]enter HttpConnection.write(byte[], int, int)
+2014-06-0610:00:10[main:449]-[DEBUG]enter HttpConnection.writeLine()
+2014-06-0610:00:10[main:449]-[DEBUG]enter HttpConnection.write(byte[])
+2014-06-0610:00:10[main:449]-[DEBUG]enter HttpConnection.write(byte[], int, int)
+2014-06-0610:00:10[main:449]-[DEBUG]>> "[\r][\n]"
+2014-06-0610:00:10[main:450]-[DEBUG]enter EntityEnclosingMethod.writeRequestBody(HttpState, HttpConnection)
+2014-06-0610:00:10[main:450]-[DEBUG]enter PostMethod.hasRequestContent()
+2014-06-0610:00:10[main:450]-[DEBUG]enter EntityEnclosingMethod.hasRequestContent()
+2014-06-0610:00:10[main:450]-[DEBUG]enter EntityEnclosingMethod.getRequestContentLength()
+2014-06-0610:00:10[main:451]-[DEBUG]enter PostMethod.hasRequestContent()
+2014-06-0610:00:10[main:451]-[DEBUG]enter EntityEnclosingMethod.hasRequestContent()
+2014-06-0610:00:10[main:451]-[DEBUG]enter HttpConnection.getRequestOutputStream()
+2014-06-0610:00:10[main:451]-[DEBUG]>> "{"appId":"OQwcQ6cw037EjIl2lZNrE3","isOffline":false,"appkey":"XPgae0IM7C6Bb6R8EutWF4","action":"pushMessageToSingleAction","pushType":"TransmissionMsg","offlineExpireTime":0,"type":2,"clientId":"198c9a8096e2453ee24cb72ac8709447","transmissionContent":"[0xe6][0x8e][0xa8][0xe9][0x80][0x81][0xe6][0xb6][0x88][0xe6][0x81][0xaf][0xe4][0xb8][0xad]","version":"3.0.0.0","clientData":"CgASC3B1c2htZXNzYWdlGgAiFlhQZ2FlMElNN0M2QmI2UjhFdXRXRjQqFk9Rd2NRNmN3MDM3RWpJ\r\nbDJsWk5yRTMyADoICgASABoAIgBCBwgBEAAYrk5CGQiuThADGGTiCADqCAYKABIAGgDwCAD4CGRC\r\nBAhkEAc="}"
+2014-06-0610:00:10[main:452]-[DEBUG]Request body sent
+2014-06-0610:00:10[main:452]-[DEBUG]enter HttpConnection.flushRequestOutputStream()
+2014-06-0610:00:10[main:452]-[DEBUG]enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+2014-06-0610:00:10[main:452]-[DEBUG]enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+2014-06-0610:00:10[main:452]-[DEBUG]enter HttpConnection.readLine()
+2014-06-0610:00:10[main:453]-[DEBUG]enter HttpParser.readLine(InputStream, String)
+2014-06-0610:00:10[main:453]-[DEBUG]enter HttpParser.readRawLine()
+2014-06-0610:00:11[main:501]-[DEBUG]<< "HTTP/1.1 200 OK[\r][\n]"
+2014-06-0610:00:11[main:502]-[DEBUG]enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+2014-06-0610:00:11[main:502]-[DEBUG]enter HttpConnection.getResponseInputStream()
+2014-06-0610:00:11[main:502]-[DEBUG]enter HeaderParser.parseHeaders(InputStream, String)
+2014-06-0610:00:11[main:502]-[DEBUG]enter HttpParser.readLine(InputStream, String)
+2014-06-0610:00:11[main:503]-[DEBUG]enter HttpParser.readRawLine()
+2014-06-0610:00:11[main:503]-[DEBUG]enter HttpParser.readLine(InputStream, String)
+2014-06-0610:00:11[main:503]-[DEBUG]enter HttpParser.readRawLine()
+2014-06-0610:00:11[main:503]-[DEBUG]enter HttpParser.readLine(InputStream, String)
+2014-06-0610:00:11[main:503]-[DEBUG]enter HttpParser.readRawLine()
+2014-06-0610:00:11[main:503]-[DEBUG]enter HttpParser.readLine(InputStream, String)
+2014-06-0610:00:11[main:503]-[DEBUG]enter HttpParser.readRawLine()
+2014-06-0610:00:11[main:503]-[DEBUG]enter HttpParser.readLine(InputStream, String)
+2014-06-0610:00:11[main:503]-[DEBUG]enter HttpParser.readRawLine()
+2014-06-0610:00:11[main:504]-[DEBUG]<< "Content-Language: en-US[\r][\n]"
+2014-06-0610:00:11[main:504]-[DEBUG]<< "Content-Type: text/html;charset=UTF-8[\r][\n]"
+2014-06-0610:00:11[main:504]-[DEBUG]<< "Content-Length: 85[\r][\n]"
+2014-06-0610:00:11[main:504]-[DEBUG]<< "Connection: close[\r][\n]"
+2014-06-0610:00:11[main:504]-[DEBUG]enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+2014-06-0610:00:11[main:504]-[DEBUG]enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+2014-06-0610:00:11[main:504]-[DEBUG]enter HttpMethodBase.readResponseBody(HttpConnection)
+2014-06-0610:00:11[main:504]-[DEBUG]enter HttpConnection.getResponseInputStream()
+2014-06-0610:00:11[main:505]-[DEBUG]enter HttpMethodBase.canResponseHaveBody(int)
+2014-06-0610:00:11[main:505]-[DEBUG]<< "{"taskId":"OSS-0606_rrgqd7pkTn8SaBkb2eUyE","result":"ok","status":"successed_online"}"
+2014-06-0610:00:11[main:506]-[DEBUG]Should close connection in response to directive: close
+2014-06-0610:00:11[main:506]-[DEBUG]enter HttpConnection.close()
+2014-06-0610:00:11[main:506]-[DEBUG]enter HttpConnection.closeSockedAndStreams()
+2014-06-0610:00:11[main:506]-[DEBUG]enter HttpConnection.releaseConnection()
+2014-06-0610:00:11[main:506]-[DEBUG]Releasing connection back to connection manager.
+2014-06-0610:00:11[main:507]-[DEBUG]enter HttpConnectionManager.releaseConnection(HttpConnection)
+2014-06-0610:00:11[main:507]-[DEBUG]Freeing connection, hostConfig=HostConfiguration[host=http://sdk.open.api.igexin.com]
+2014-06-0610:00:11[main:507]-[DEBUG]enter HttpConnectionManager.ConnectionPool.getHostPool(HostConfiguration)
+2014-06-0610:00:11[main:507]-[DEBUG]Adding connection at: 1402020011039
+2014-06-0610:00:11[main:507]-[DEBUG]Notifying no-one, there are no waiting threads
+2014-06-0610:01:06[main:0]-[INFO]232324234
+2014-06-0610:01:06[main:144]-[DEBUG]Set parameter http.useragent = Jakarta Commons-HttpClient/3.0.1
+2014-06-0610:01:06[main:146]-[DEBUG]Set parameter http.protocol.version = HTTP/1.1
+2014-06-0610:01:06[main:147]-[DEBUG]Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2014-06-0610:01:06[main:147]-[DEBUG]Set parameter http.protocol.cookie-policy = rfc2109
+2014-06-0610:01:06[main:147]-[DEBUG]Set parameter http.protocol.element-charset = US-ASCII
+2014-06-0610:01:06[main:148]-[DEBUG]Set parameter http.protocol.content-charset = ISO-8859-1
+2014-06-0610:01:06[main:148]-[DEBUG]Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@949919e
+2014-06-0610:01:06[main:148]-[DEBUG]Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2014-06-0610:01:06[main:150]-[DEBUG]Set parameter http.connection.timeout = 60000
+2014-06-0610:01:06[main:152]-[DEBUG]Set parameter http.connection-manager.max-per-host = {HostConfiguration[]=200}
+2014-06-0610:01:06[main:152]-[DEBUG]Set parameter http.connection.stalecheck = true
+2014-06-0610:01:06[main:153]-[DEBUG]Set parameter http.tcp.nodelay = true
+2014-06-0610:01:06[main:153]-[DEBUG]Set parameter http.socket.timeout = 30000
+2014-06-0610:01:06[main:227]-[DEBUG]HttpMethodBase.addRequestHeader(Header)
+2014-06-0610:01:06[main:228]-[DEBUG]enter PostMethod.clearRequestBody()
+2014-06-0610:01:06[main:229]-[DEBUG]enter EntityEnclosingMethod.clearRequestBody()
+2014-06-0610:01:06[main:229]-[DEBUG]Java version: 1.7.0_45
+2014-06-0610:01:06[main:229]-[DEBUG]Java vendor: Oracle Corporation
+2014-06-0610:01:06[main:230]-[DEBUG]Java class path: D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\classes;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\bean-validator.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.annotation.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.ejb.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.enterprise.deploy.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.jms.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.management.j2ee.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.persistence.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.resource.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.security.auth.message.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.security.jacc.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.servlet.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.servlet.jsp.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.transaction.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\jaxb-api-osgi.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\jsr311-api.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\mail.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\webservices-api-osgi.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\weld-osgi-bundle.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\bonecp-0.7.1.RELEASE.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\commons-codec-1.2.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\commons-httpclient-3.0.1.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\commons-logging-1.0.3.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\ezmorph-1.0.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\gexin-rp-sdk-base-2.0.0.9.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\gexin-rp-sdk-http-3.0.0.2.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\gexin-rp-sdk-template-2.0.0.6.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\gson-2.2.4.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\guava-13.0.1.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\jackson-all-1.8.5.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\jpush-client-2.4.2.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\log4j-1.2.17.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\mysql-connector-java-5[1].0.5-bin.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\protobuf-java-2.4.1.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\slf4j-api-1.7.2.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\slf4j-nop-1.7.2.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\JSTL1.2.1\lib\javax.servlet.jsp.jstl.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\JSTL1.2.1\lib\jstl-impl.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\antlr-2.7.2.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\aopalliance-1.0.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\classworlds-1.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-beanutils-1.7.0.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-chain-1.2.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-collections-3.2.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-digester-2.0.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-fileupload-1.2.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-io-1.3.2.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-lang-2.3.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-logging-1.0.4.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-logging-api-1.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-validator-1.3.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\freemarker-2.3.16.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\javassist-3.7.ga.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\json-lib-2.1-jdk15.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\ognl-3.0.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\oro-2.0.8.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\sslext-1.2-0.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\struts2-convention-plugin-2.2.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\struts2-core-2.2.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\struts2-embeddedjsp-plugin-2.2.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\struts2-json-plugin-2.2.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\xwork-core-2.2.1.jar
+2014-06-0610:01:06[main:230]-[DEBUG]Operating system name: Windows 7
+2014-06-0610:01:06[main:230]-[DEBUG]Operating system architecture: amd64
+2014-06-0610:01:06[main:230]-[DEBUG]Operating system version: 6.1
+2014-06-0610:01:06[main:280]-[DEBUG]SUN 1.7: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS keystore; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2014-06-0610:01:06[main:281]-[DEBUG]SunRsaSign 1.7: Sun RSA signature provider
+2014-06-0610:01:06[main:281]-[DEBUG]SunEC 1.7: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2014-06-0610:01:06[main:281]-[DEBUG]SunJSSE 1.7: Sun JSSE provider(PKCS12, SunX509 key/trust factories, SSLv3, TLSv1)
+2014-06-0610:01:06[main:281]-[DEBUG]SunJCE 1.7: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2014-06-0610:01:06[main:281]-[DEBUG]SunJGSS 1.7: Sun (Kerberos v5, SPNEGO)
+2014-06-0610:01:06[main:281]-[DEBUG]SunSASL 1.7: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2014-06-0610:01:06[main:281]-[DEBUG]XMLDSig 1.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory)
+2014-06-0610:01:06[main:281]-[DEBUG]SunPCSC 1.7: Sun PC/SC provider
+2014-06-0610:01:06[main:281]-[DEBUG]SunMSCAPI 1.7: Sun's Microsoft Crypto API provider
+2014-06-0610:01:06[main:282]-[DEBUG]enter HttpClient.executeMethod(HttpMethod)
+2014-06-0610:01:06[main:282]-[DEBUG]enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+2014-06-0610:01:06[main:286]-[DEBUG]enter HttpConnectionManager.getConnectionWithTimeout(HostConfiguration, long)
+2014-06-0610:01:06[main:286]-[DEBUG]HttpConnectionManager.getConnection:  config = HostConfiguration[host=http://sdk.open.api.igexin.com], timeout = 0
+2014-06-0610:01:06[main:287]-[DEBUG]enter HttpConnectionManager.ConnectionPool.getHostPool(HostConfiguration)
+2014-06-0610:01:06[main:287]-[DEBUG]enter HttpConnectionManager.ConnectionPool.getHostPool(HostConfiguration)
+2014-06-0610:01:06[main:287]-[DEBUG]Allocating new connection, hostConfig=HostConfiguration[host=http://sdk.open.api.igexin.com]
+2014-06-0610:01:06[main:290]-[DEBUG]Attempt number 1 to process request
+2014-06-0610:01:06[main:290]-[DEBUG]enter HttpConnection.open()
+2014-06-0610:01:06[main:290]-[DEBUG]Open connection to sdk.open.api.igexin.com:80
+2014-06-0610:01:06[main:359]-[DEBUG]enter HttpMethodBase.execute(HttpState, HttpConnection)
+2014-06-0610:01:06[main:359]-[DEBUG]enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+2014-06-0610:01:06[main:359]-[DEBUG]enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+2014-06-0610:01:06[main:359]-[DEBUG]enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+2014-06-0610:01:06[main:360]-[DEBUG]>> "POST /apiex.htm HTTP/1.1[\r][\n]"
+2014-06-0610:01:06[main:360]-[DEBUG]enter HttpConnection.print(String)
+2014-06-0610:01:06[main:360]-[DEBUG]enter HttpConnection.write(byte[])
+2014-06-0610:01:06[main:360]-[DEBUG]enter HttpConnection.write(byte[], int, int)
+2014-06-0610:01:06[main:360]-[DEBUG]enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+2014-06-0610:01:06[main:360]-[DEBUG]enter EntityEnclosingMethod.addRequestHeaders(HttpState, HttpConnection)
+2014-06-0610:01:06[main:360]-[DEBUG]enter ExpectContinueMethod.addRequestHeaders(HttpState, HttpConnection)
+2014-06-0610:01:06[main:361]-[DEBUG]enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+2014-06-0610:01:06[main:361]-[DEBUG]enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+2014-06-0610:01:06[main:361]-[DEBUG]enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+2014-06-0610:01:06[main:361]-[DEBUG]Adding Host request header
+2014-06-0610:01:06[main:361]-[DEBUG]enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+2014-06-0610:01:06[main:366]-[DEBUG]enter HttpState.getCookies()
+2014-06-0610:01:06[main:366]-[DEBUG]enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+2014-06-0610:01:06[main:366]-[DEBUG]enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+2014-06-0610:01:06[main:366]-[DEBUG]enter EntityEnclosingMethod.addContentLengthRequestHeader(HttpState, HttpConnection)
+2014-06-0610:01:06[main:366]-[DEBUG]enter EntityEnclosingMethod.getRequestContentLength()
+2014-06-0610:01:06[main:366]-[DEBUG]enter PostMethod.hasRequestContent()
+2014-06-0610:01:06[main:366]-[DEBUG]enter EntityEnclosingMethod.hasRequestContent()
+2014-06-0610:01:06[main:366]-[DEBUG]HttpMethodBase.addRequestHeader(Header)
+2014-06-0610:01:06[main:367]-[DEBUG]>> "Content-Type: text/html;charset=UTF-8[\r][\n]"
+2014-06-0610:01:06[main:367]-[DEBUG]enter HttpConnection.print(String)
+2014-06-0610:01:06[main:367]-[DEBUG]enter HttpConnection.write(byte[])
+2014-06-0610:01:06[main:367]-[DEBUG]enter HttpConnection.write(byte[], int, int)
+2014-06-0610:01:06[main:367]-[DEBUG]>> "User-Agent: Jakarta Commons-HttpClient/3.0.1[\r][\n]"
+2014-06-0610:01:06[main:367]-[DEBUG]enter HttpConnection.print(String)
+2014-06-0610:01:06[main:367]-[DEBUG]enter HttpConnection.write(byte[])
+2014-06-0610:01:06[main:367]-[DEBUG]enter HttpConnection.write(byte[], int, int)
+2014-06-0610:01:06[main:367]-[DEBUG]>> "Host: sdk.open.api.igexin.com[\r][\n]"
+2014-06-0610:01:06[main:367]-[DEBUG]enter HttpConnection.print(String)
+2014-06-0610:01:06[main:367]-[DEBUG]enter HttpConnection.write(byte[])
+2014-06-0610:01:06[main:368]-[DEBUG]enter HttpConnection.write(byte[], int, int)
+2014-06-0610:01:06[main:368]-[DEBUG]>> "Content-Length: 473[\r][\n]"
+2014-06-0610:01:06[main:368]-[DEBUG]enter HttpConnection.print(String)
+2014-06-0610:01:06[main:368]-[DEBUG]enter HttpConnection.write(byte[])
+2014-06-0610:01:06[main:368]-[DEBUG]enter HttpConnection.write(byte[], int, int)
+2014-06-0610:01:06[main:368]-[DEBUG]enter HttpConnection.writeLine()
+2014-06-0610:01:06[main:368]-[DEBUG]enter HttpConnection.write(byte[])
+2014-06-0610:01:06[main:368]-[DEBUG]enter HttpConnection.write(byte[], int, int)
+2014-06-0610:01:06[main:368]-[DEBUG]>> "[\r][\n]"
+2014-06-0610:01:06[main:368]-[DEBUG]enter EntityEnclosingMethod.writeRequestBody(HttpState, HttpConnection)
+2014-06-0610:01:06[main:368]-[DEBUG]enter PostMethod.hasRequestContent()
+2014-06-0610:01:06[main:369]-[DEBUG]enter EntityEnclosingMethod.hasRequestContent()
+2014-06-0610:01:06[main:369]-[DEBUG]enter EntityEnclosingMethod.getRequestContentLength()
+2014-06-0610:01:06[main:369]-[DEBUG]enter PostMethod.hasRequestContent()
+2014-06-0610:01:06[main:369]-[DEBUG]enter EntityEnclosingMethod.hasRequestContent()
+2014-06-0610:01:06[main:369]-[DEBUG]enter HttpConnection.getRequestOutputStream()
+2014-06-0610:01:06[main:369]-[DEBUG]>> "{"appId":"OQwcQ6cw037EjIl2lZNrE3","isOffline":false,"appkey":"XPgae0IM7C6Bb6R8EutWF4","action":"pushMessageToSingleAction","pushType":"TransmissionMsg","offlineExpireTime":0,"type":2,"clientId":"198c9a8096e2453ee24cb72ac8709447","transmissionContent":"[0xe6][0x8e][0xa8][0xe9][0x80][0x81][0xe6][0xb6][0x88][0xe6][0x81][0xaf][0xe4][0xb8][0xad]","version":"3.0.0.0","clientData":"CgASC3B1c2htZXNzYWdlGgAiFlhQZ2FlMElNN0M2QmI2UjhFdXRXRjQqFk9Rd2NRNmN3MDM3RWpJ\r\nbDJsWk5yRTMyADoICgASABoAIgBCBwgBEAAYrk5CGQiuThADGGTiCADqCAYKABIAGgDwCAD4CGRC\r\nBAhkEAc="}"
+2014-06-0610:01:06[main:369]-[DEBUG]Request body sent
+2014-06-0610:01:06[main:369]-[DEBUG]enter HttpConnection.flushRequestOutputStream()
+2014-06-0610:01:06[main:370]-[DEBUG]enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+2014-06-0610:01:06[main:370]-[DEBUG]enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+2014-06-0610:01:06[main:370]-[DEBUG]enter HttpConnection.readLine()
+2014-06-0610:01:06[main:370]-[DEBUG]enter HttpParser.readLine(InputStream, String)
+2014-06-0610:01:06[main:370]-[DEBUG]enter HttpParser.readRawLine()
+2014-06-0610:01:07[main:520]-[DEBUG]<< "HTTP/1.1 200 OK[\r][\n]"
+2014-06-0610:01:07[main:522]-[DEBUG]enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+2014-06-0610:01:07[main:522]-[DEBUG]enter HttpConnection.getResponseInputStream()
+2014-06-0610:01:07[main:522]-[DEBUG]enter HeaderParser.parseHeaders(InputStream, String)
+2014-06-0610:01:07[main:523]-[DEBUG]enter HttpParser.readLine(InputStream, String)
+2014-06-0610:01:07[main:523]-[DEBUG]enter HttpParser.readRawLine()
+2014-06-0610:01:07[main:523]-[DEBUG]enter HttpParser.readLine(InputStream, String)
+2014-06-0610:01:07[main:523]-[DEBUG]enter HttpParser.readRawLine()
+2014-06-0610:01:07[main:524]-[DEBUG]enter HttpParser.readLine(InputStream, String)
+2014-06-0610:01:07[main:524]-[DEBUG]enter HttpParser.readRawLine()
+2014-06-0610:01:07[main:524]-[DEBUG]enter HttpParser.readLine(InputStream, String)
+2014-06-0610:01:07[main:524]-[DEBUG]enter HttpParser.readRawLine()
+2014-06-0610:01:07[main:524]-[DEBUG]enter HttpParser.readLine(InputStream, String)
+2014-06-0610:01:07[main:525]-[DEBUG]enter HttpParser.readRawLine()
+2014-06-0610:01:07[main:525]-[DEBUG]<< "Content-Language: en-US[\r][\n]"
+2014-06-0610:01:07[main:525]-[DEBUG]<< "Content-Type: text/html;charset=UTF-8[\r][\n]"
+2014-06-0610:01:07[main:525]-[DEBUG]<< "Content-Length: 86[\r][\n]"
+2014-06-0610:01:07[main:525]-[DEBUG]<< "Connection: close[\r][\n]"
+2014-06-0610:01:07[main:526]-[DEBUG]enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+2014-06-0610:01:07[main:526]-[DEBUG]enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+2014-06-0610:01:07[main:526]-[DEBUG]enter HttpMethodBase.readResponseBody(HttpConnection)
+2014-06-0610:01:07[main:526]-[DEBUG]enter HttpConnection.getResponseInputStream()
+2014-06-0610:01:07[main:527]-[DEBUG]enter HttpMethodBase.canResponseHaveBody(int)
+2014-06-0610:01:07[main:528]-[DEBUG]<< "{"taskId":"OSS-0606_hB2uBqTbsS9yqpYv4TaEg2","result":"ok","status":"successed_online"}"
+2014-06-0610:01:07[main:529]-[DEBUG]Should close connection in response to directive: close
+2014-06-0610:01:07[main:530]-[DEBUG]enter HttpConnection.close()
+2014-06-0610:01:07[main:530]-[DEBUG]enter HttpConnection.closeSockedAndStreams()
+2014-06-0610:01:07[main:530]-[DEBUG]enter HttpConnection.releaseConnection()
+2014-06-0610:01:07[main:530]-[DEBUG]Releasing connection back to connection manager.
+2014-06-0610:01:07[main:531]-[DEBUG]enter HttpConnectionManager.releaseConnection(HttpConnection)
+2014-06-0610:01:07[main:531]-[DEBUG]Freeing connection, hostConfig=HostConfiguration[host=http://sdk.open.api.igexin.com]
+2014-06-0610:01:07[main:531]-[DEBUG]enter HttpConnectionManager.ConnectionPool.getHostPool(HostConfiguration)
+2014-06-0610:01:07[main:532]-[DEBUG]Adding connection at: 1402020067112
+2014-06-0610:01:07[main:532]-[DEBUG]Notifying no-one, there are no waiting threads
+2014-06-0610:01:47[main:0]-[INFO]232324234
+2014-06-0610:01:47[main:143]-[DEBUG]Set parameter http.useragent = Jakarta Commons-HttpClient/3.0.1
+2014-06-0610:01:47[main:145]-[DEBUG]Set parameter http.protocol.version = HTTP/1.1
+2014-06-0610:01:47[main:146]-[DEBUG]Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+2014-06-0610:01:47[main:146]-[DEBUG]Set parameter http.protocol.cookie-policy = rfc2109
+2014-06-0610:01:47[main:146]-[DEBUG]Set parameter http.protocol.element-charset = US-ASCII
+2014-06-0610:01:47[main:146]-[DEBUG]Set parameter http.protocol.content-charset = ISO-8859-1
+2014-06-0610:01:47[main:147]-[DEBUG]Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@949919e
+2014-06-0610:01:47[main:147]-[DEBUG]Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+2014-06-0610:01:47[main:149]-[DEBUG]Set parameter http.connection.timeout = 60000
+2014-06-0610:01:47[main:151]-[DEBUG]Set parameter http.connection-manager.max-per-host = {HostConfiguration[]=200}
+2014-06-0610:01:47[main:151]-[DEBUG]Set parameter http.connection.stalecheck = true
+2014-06-0610:01:47[main:151]-[DEBUG]Set parameter http.tcp.nodelay = true
+2014-06-0610:01:47[main:152]-[DEBUG]Set parameter http.socket.timeout = 30000
+2014-06-0610:01:47[main:236]-[DEBUG]HttpMethodBase.addRequestHeader(Header)
+2014-06-0610:01:47[main:237]-[DEBUG]enter PostMethod.clearRequestBody()
+2014-06-0610:01:47[main:239]-[DEBUG]enter EntityEnclosingMethod.clearRequestBody()
+2014-06-0610:01:47[main:240]-[DEBUG]Java version: 1.7.0_45
+2014-06-0610:01:47[main:240]-[DEBUG]Java vendor: Oracle Corporation
+2014-06-0610:01:47[main:240]-[DEBUG]Java class path: D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\classes;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\bean-validator.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.annotation.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.ejb.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.enterprise.deploy.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.jms.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.management.j2ee.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.persistence.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.resource.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.security.auth.message.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.security.jacc.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.servlet.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.servlet.jsp.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\javax.transaction.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\jaxb-api-osgi.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\jsr311-api.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\mail.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\webservices-api-osgi.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\EE_6\weld-osgi-bundle.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\bonecp-0.7.1.RELEASE.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\commons-codec-1.2.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\commons-httpclient-3.0.1.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\commons-logging-1.0.3.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\ezmorph-1.0.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\gexin-rp-sdk-base-2.0.0.9.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\gexin-rp-sdk-http-3.0.0.2.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\gexin-rp-sdk-template-2.0.0.6.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\gson-2.2.4.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\guava-13.0.1.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\jackson-all-1.8.5.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\jpush-client-2.4.2.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\log4j-1.2.17.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\mysql-connector-java-5[1].0.5-bin.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\protobuf-java-2.4.1.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\slf4j-api-1.7.2.jar;D:\Workspaces\MyEclipse Professional 2014\SmsServer\WebRoot\WEB-INF\lib\slf4j-nop-1.7.2.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\JSTL1.2.1\lib\javax.servlet.jsp.jstl.jar;D:\Program Files\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\JSTL1.2.1\lib\jstl-impl.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\antlr-2.7.2.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\aopalliance-1.0.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\classworlds-1.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-beanutils-1.7.0.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-chain-1.2.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-collections-3.2.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-digester-2.0.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-fileupload-1.2.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-io-1.3.2.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-lang-2.3.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-logging-1.0.4.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-logging-api-1.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\commons-validator-1.3.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\freemarker-2.3.16.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\javassist-3.7.ga.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\json-lib-2.1-jdk15.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\ognl-3.0.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\oro-2.0.8.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\sslext-1.2-0.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\struts2-convention-plugin-2.2.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\struts2-core-2.2.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\struts2-embeddedjsp-plugin-2.2.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\struts2-json-plugin-2.2.1.jar;D:\Program Files\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\107\1\.cp\data\2.1\core\xwork-core-2.2.1.jar
+2014-06-0610:01:47[main:241]-[DEBUG]Operating system name: Windows 7
+2014-06-0610:01:47[main:241]-[DEBUG]Operating system architecture: amd64
+2014-06-0610:01:47[main:242]-[DEBUG]Operating system version: 6.1
+2014-06-0610:01:47[main:297]-[DEBUG]SUN 1.7: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS keystore; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+2014-06-0610:01:47[main:297]-[DEBUG]SunRsaSign 1.7: Sun RSA signature provider
+2014-06-0610:01:47[main:297]-[DEBUG]SunEC 1.7: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+2014-06-0610:01:47[main:297]-[DEBUG]SunJSSE 1.7: Sun JSSE provider(PKCS12, SunX509 key/trust factories, SSLv3, TLSv1)
+2014-06-0610:01:47[main:297]-[DEBUG]SunJCE 1.7: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+2014-06-0610:01:47[main:297]-[DEBUG]SunJGSS 1.7: Sun (Kerberos v5, SPNEGO)
+2014-06-0610:01:47[main:297]-[DEBUG]SunSASL 1.7: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+2014-06-0610:01:47[main:297]-[DEBUG]XMLDSig 1.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory)
+2014-06-0610:01:47[main:297]-[DEBUG]SunPCSC 1.7: Sun PC/SC provider
+2014-06-0610:01:47[main:297]-[DEBUG]SunMSCAPI 1.7: Sun's Microsoft Crypto API provider
+2014-06-0610:01:47[main:298]-[DEBUG]enter HttpClient.executeMethod(HttpMethod)
+2014-06-0610:01:47[main:299]-[DEBUG]enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+2014-06-0610:01:47[main:303]-[DEBUG]enter HttpConnectionManager.getConnectionWithTimeout(HostConfiguration, long)
+2014-06-0610:01:47[main:303]-[DEBUG]HttpConnectionManager.getConnection:  config = HostConfiguration[host=http://sdk.open.api.igexin.com], timeout = 0
+2014-06-0610:01:47[main:303]-[DEBUG]enter HttpConnectionManager.ConnectionPool.getHostPool(HostConfiguration)
+2014-06-0610:01:47[main:304]-[DEBUG]enter HttpConnectionManager.ConnectionPool.getHostPool(HostConfiguration)
+2014-06-0610:01:47[main:304]-[DEBUG]Allocating new connection, hostConfig=HostConfiguration[host=http://sdk.open.api.igexin.com]
+2014-06-0610:01:47[main:307]-[DEBUG]Attempt number 1 to process request
+2014-06-0610:01:47[main:307]-[DEBUG]enter HttpConnection.open()
+2014-06-0610:01:47[main:307]-[DEBUG]Open connection to sdk.open.api.igexin.com:80
+2014-06-0610:01:51[main:4091]-[DEBUG]enter HttpMethodBase.execute(HttpState, HttpConnection)
+2014-06-0610:01:51[main:4091]-[DEBUG]enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+2014-06-0610:01:51[main:4091]-[DEBUG]enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+2014-06-0610:01:51[main:4092]-[DEBUG]enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+2014-06-0610:01:51[main:4093]-[DEBUG]>> "POST /apiex.htm HTTP/1.1[\r][\n]"
+2014-06-0610:01:51[main:4093]-[DEBUG]enter HttpConnection.print(String)
+2014-06-0610:01:51[main:4094]-[DEBUG]enter HttpConnection.write(byte[])
+2014-06-0610:01:51[main:4094]-[DEBUG]enter HttpConnection.write(byte[], int, int)
+2014-06-0610:01:51[main:4094]-[DEBUG]enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+2014-06-0610:01:51[main:4094]-[DEBUG]enter EntityEnclosingMethod.addRequestHeaders(HttpState, HttpConnection)
+2014-06-0610:01:51[main:4094]-[DEBUG]enter ExpectContinueMethod.addRequestHeaders(HttpState, HttpConnection)
+2014-06-0610:01:51[main:4095]-[DEBUG]enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+2014-06-0610:01:51[main:4095]-[DEBUG]enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+2014-06-0610:01:51[main:4095]-[DEBUG]enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+2014-06-0610:01:51[main:4095]-[DEBUG]Adding Host request header
+2014-06-0610:01:51[main:4096]-[DEBUG]enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+2014-06-0610:01:51[main:4105]-[DEBUG]enter HttpState.getCookies()
+2014-06-0610:01:51[main:4106]-[DEBUG]enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+2014-06-0610:01:51[main:4106]-[DEBUG]enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+2014-06-0610:01:51[main:4106]-[DEBUG]enter EntityEnclosingMethod.addContentLengthRequestHeader(HttpState, HttpConnection)
+2014-06-0610:01:51[main:4107]-[DEBUG]enter EntityEnclosingMethod.getRequestContentLength()
+2014-06-0610:01:51[main:4107]-[DEBUG]enter PostMethod.hasRequestContent()
+2014-06-0610:01:51[main:4107]-[DEBUG]enter EntityEnclosingMethod.hasRequestContent()
+2014-06-0610:01:51[main:4108]-[DEBUG]HttpMethodBase.addRequestHeader(Header)
+2014-06-0610:01:51[main:4108]-[DEBUG]>> "Content-Type: text/html;charset=UTF-8[\r][\n]"
+2014-06-0610:01:51[main:4108]-[DEBUG]enter HttpConnection.print(String)
+2014-06-0610:01:51[main:4108]-[DEBUG]enter HttpConnection.write(byte[])
+2014-06-0610:01:51[main:4109]-[DEBUG]enter HttpConnection.write(byte[], int, int)
+2014-06-0610:01:51[main:4109]-[DEBUG]>> "User-Agent: Jakarta Commons-HttpClient/3.0.1[\r][\n]"
+2014-06-0610:01:51[main:4109]-[DEBUG]enter HttpConnection.print(String)
+2014-06-0610:01:51[main:4109]-[DEBUG]enter HttpConnection.write(byte[])
+2014-06-0610:01:51[main:4109]-[DEBUG]enter HttpConnection.write(byte[], int, int)
+2014-06-0610:01:51[main:4110]-[DEBUG]>> "Host: sdk.open.api.igexin.com[\r][\n]"
+2014-06-0610:01:51[main:4110]-[DEBUG]enter HttpConnection.print(String)
+2014-06-0610:01:51[main:4110]-[DEBUG]enter HttpConnection.write(byte[])
+2014-06-0610:01:51[main:4110]-[DEBUG]enter HttpConnection.write(byte[], int, int)
+2014-06-0610:01:51[main:4111]-[DEBUG]>> "Content-Length: 473[\r][\n]"
+2014-06-0610:01:51[main:4111]-[DEBUG]enter HttpConnection.print(String)
+2014-06-0610:01:51[main:4111]-[DEBUG]enter HttpConnection.write(byte[])
+2014-06-0610:01:51[main:4111]-[DEBUG]enter HttpConnection.write(byte[], int, int)
+2014-06-0610:01:51[main:4111]-[DEBUG]enter HttpConnection.writeLine()
+2014-06-0610:01:51[main:4112]-[DEBUG]enter HttpConnection.write(byte[])
+2014-06-0610:01:51[main:4112]-[DEBUG]enter HttpConnection.write(byte[], int, int)
+2014-06-0610:01:51[main:4112]-[DEBUG]>> "[\r][\n]"
+2014-06-0610:01:51[main:4112]-[DEBUG]enter EntityEnclosingMethod.writeRequestBody(HttpState, HttpConnection)
+2014-06-0610:01:51[main:4112]-[DEBUG]enter PostMethod.hasRequestContent()
+2014-06-0610:01:51[main:4113]-[DEBUG]enter EntityEnclosingMethod.hasRequestContent()
+2014-06-0610:01:51[main:4113]-[DEBUG]enter EntityEnclosingMethod.getRequestContentLength()
+2014-06-0610:01:51[main:4113]-[DEBUG]enter PostMethod.hasRequestContent()
+2014-06-0610:01:51[main:4113]-[DEBUG]enter EntityEnclosingMethod.hasRequestContent()
+2014-06-0610:01:51[main:4113]-[DEBUG]enter HttpConnection.getRequestOutputStream()
+2014-06-0610:01:51[main:4114]-[DEBUG]>> "{"appId":"OQwcQ6cw037EjIl2lZNrE3","isOffline":false,"appkey":"XPgae0IM7C6Bb6R8EutWF4","action":"pushMessageToSingleAction","pushType":"TransmissionMsg","offlineExpireTime":0,"type":2,"clientId":"198c9a8096e2453ee24cb72ac8709447","transmissionContent":"[0xe6][0x8e][0xa8][0xe9][0x80][0x81][0xe6][0xb6][0x88][0xe6][0x81][0xaf][0xe4][0xb8][0xad]","version":"3.0.0.0","clientData":"CgASC3B1c2htZXNzYWdlGgAiFlhQZ2FlMElNN0M2QmI2UjhFdXRXRjQqFk9Rd2NRNmN3MDM3RWpJ\r\nbDJsWk5yRTMyADoICgASABoAIgBCBwgBEAAYrk5CGQiuThADGGTiCADqCAYKABIAGgDwCAD4CGRC\r\nBAhkEAc="}"
+2014-06-0610:01:51[main:4114]-[DEBUG]Request body sent
+2014-06-0610:01:51[main:4115]-[DEBUG]enter HttpConnection.flushRequestOutputStream()
+2014-06-0610:01:51[main:4115]-[DEBUG]enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+2014-06-0610:01:51[main:4115]-[DEBUG]enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+2014-06-0610:01:51[main:4115]-[DEBUG]enter HttpConnection.readLine()
+2014-06-0610:01:51[main:4117]-[DEBUG]enter HttpParser.readLine(InputStream, String)
+2014-06-0610:01:51[main:4117]-[DEBUG]enter HttpParser.readRawLine()
+2014-06-0610:01:54[main:7149]-[DEBUG]<< "HTTP/1.1 200 OK[\r][\n]"
+2014-06-0610:01:54[main:7151]-[DEBUG]enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+2014-06-0610:01:54[main:7151]-[DEBUG]enter HttpConnection.getResponseInputStream()
+2014-06-0610:01:54[main:7151]-[DEBUG]enter HeaderParser.parseHeaders(InputStream, String)
+2014-06-0610:01:54[main:7151]-[DEBUG]enter HttpParser.readLine(InputStream, String)
+2014-06-0610:01:54[main:7151]-[DEBUG]enter HttpParser.readRawLine()
+2014-06-0610:01:54[main:7152]-[DEBUG]enter HttpParser.readLine(InputStream, String)
+2014-06-0610:01:54[main:7152]-[DEBUG]enter HttpParser.readRawLine()
+2014-06-0610:01:54[main:7152]-[DEBUG]enter HttpParser.readLine(InputStream, String)
+2014-06-0610:01:54[main:7152]-[DEBUG]enter HttpParser.readRawLine()
+2014-06-0610:01:54[main:7153]-[DEBUG]enter HttpParser.readLine(InputStream, String)
+2014-06-0610:01:54[main:7153]-[DEBUG]enter HttpParser.readRawLine()
+2014-06-0610:01:54[main:7153]-[DEBUG]enter HttpParser.readLine(InputStream, String)
+2014-06-0610:01:54[main:7153]-[DEBUG]enter HttpParser.readRawLine()
+2014-06-0610:01:54[main:7153]-[DEBUG]<< "Content-Language: en-US[\r][\n]"
+2014-06-0610:01:54[main:7154]-[DEBUG]<< "Content-Type: text/html;charset=UTF-8[\r][\n]"
+2014-06-0610:01:54[main:7154]-[DEBUG]<< "Content-Length: 86[\r][\n]"
+2014-06-0610:01:54[main:7154]-[DEBUG]<< "Connection: close[\r][\n]"
+2014-06-0610:01:54[main:7154]-[DEBUG]enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+2014-06-0610:01:54[main:7155]-[DEBUG]enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+2014-06-0610:01:54[main:7155]-[DEBUG]enter HttpMethodBase.readResponseBody(HttpConnection)
+2014-06-0610:01:54[main:7155]-[DEBUG]enter HttpConnection.getResponseInputStream()
+2014-06-0610:01:54[main:7155]-[DEBUG]enter HttpMethodBase.canResponseHaveBody(int)
+2014-06-0610:01:54[main:7157]-[DEBUG]<< "{"taskId":"OSS-0606_44M5WWmGbV8eahyTqaFpO5","result":"ok","status":"successed_online"}"
+2014-06-0610:01:54[main:7158]-[DEBUG]Should close connection in response to directive: close
+2014-06-0610:01:54[main:7158]-[DEBUG]enter HttpConnection.close()
+2014-06-0610:01:54[main:7158]-[DEBUG]enter HttpConnection.closeSockedAndStreams()
+2014-06-0610:01:54[main:7159]-[DEBUG]enter HttpConnection.releaseConnection()
+2014-06-0610:01:54[main:7159]-[DEBUG]Releasing connection back to connection manager.
+2014-06-0610:01:54[main:7159]-[DEBUG]enter HttpConnectionManager.releaseConnection(HttpConnection)
+2014-06-0610:01:54[main:7160]-[DEBUG]Freeing connection, hostConfig=HostConfiguration[host=http://sdk.open.api.igexin.com]
+2014-06-0610:01:54[main:7160]-[DEBUG]enter HttpConnectionManager.ConnectionPool.getHostPool(HostConfiguration)
+2014-06-0610:01:54[main:7160]-[DEBUG]Adding connection at: 1402020114423
+2014-06-0610:01:54[main:7160]-[DEBUG]Notifying no-one, there are no waiting threads

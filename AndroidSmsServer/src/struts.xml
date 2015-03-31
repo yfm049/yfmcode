@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+	<constant name="struts.multipart.maxSize" value="20480000"/>
+	<package name="control" namespace="/control" extends="json-default">
+		<action name="data" class="com.android.smsserver.ControlAction">
+			<result name="userlist">/user/userlist.jsp</result>
+			<result name="updateuser">/user/updateuser.jsp</result>
+			<result name="devicelist">/device/devicelist.jsp</result>
+			<result name="updatedevice">/device/updatedevice.jsp</result>
+			<result name="smslist">/sms/smslist.jsp</result>
+			<result name="phonelist">/phone/phonelist.jsp</result>
+			<result name="locationlist">/location/locationlist.jsp</result>
+			<result name="recordlist">/record/recordlist.jsp</result>
+			<result name="photolist">/photo/photolist.jsp</result>
+			<result type="json" name="mapjson">
+				<param name="root">map</param>
+				<param name="contentType">text/html</param>
+			</result>
+			<result type="json" name="listjson">
+				<param name="root">lmo</param>
+				<param name="contentType">text/html</param>
+			</result>
+		</action>
+		<action name="server" class="com.android.smsserver.ServerAction">
+			<result type="json" name="mapjson">
+				<param name="root">map</param>
+				<param name="contentType">text/html</param>
+			</result>
+			<result type="json" name="listjson">
+				<param name="root">lmo</param>
+				<param name="contentType">text/html</param>
+			</result>
+		</action>
+		<action name="client" class="com.android.smsserver.ClientAction">
+			<result type="json" name="mapjson">
+				<param name="root">map</param>
+				<param name="contentType">text/html</param>
+			</result>
+			<result type="json" name="listjson">
+				<param name="root">lmo</param>
+				<param name="contentType">text/html</param>
+			</result>
+		</action>
+	</package>
+</struts>    
