@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoOpen</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="borwtitle">选择浏览器</string>
+	<string-array name="borwarray">
+	    <item>请选择浏览器</item>
+	    <item>com.android.browser</item>
+	    <item>com.uc.browser.hd</item>
+	</string-array>
+</resources>
