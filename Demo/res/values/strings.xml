@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Demo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+	<string name="drop_dowm">下拉刷新</string>
+    <string name="release_update">松开刷新</string>
+    <string name="loading">正在加载。。。</string>
+    <string name="seen_more">更多</string>
+</resources>
