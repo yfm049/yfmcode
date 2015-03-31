@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.preview.camerapro"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="15" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"  android:windowSoftInputMode="adjustPan" android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden|screenSize" android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InfoActivity" android:label="@string/app_name" android:windowSoftInputMode="adjustUnspecified|stateHidden" android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden|screenSize"></activity>
+		<activity android:name=".ListActivity"  android:label="@string/app_name" android:windowSoftInputMode="adjustPan" android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden|screenSize"></activity>
+        <activity android:name=".CodeSetActivity"  android:label="@string/app_name" android:windowSoftInputMode="adjustPan" android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden|screenSize"></activity>
+         
+        <activity android:name=".SetActivity"  android:label="@string/app_name" android:windowSoftInputMode="adjustPan" android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden|screenSize"></activity>
+        <activity android:name=".IpSetActivity"  android:label="@string/app_name" android:windowSoftInputMode="adjustPan" android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden|screenSize"></activity>
+        <activity android:name=".ModeSetActivity"  android:label="@string/app_name" android:windowSoftInputMode="adjustPan" android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden|screenSize"></activity>
+        <activity android:name=".CftimeSetActivity"  android:label="@string/app_name" android:windowSoftInputMode="adjustPan" android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden|screenSize"></activity>
+        <activity android:name=".KmtimeSetActivity"  android:label="@string/app_name" android:windowSoftInputMode="adjustPan" android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden|screenSize"></activity>
+                
+        
+    </application>
+
+</manifest>

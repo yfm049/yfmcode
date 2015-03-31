@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first">模式一</string>
+	<string-array name="modefirst">
+	    <item>非食堂模式</item>
+	    <item>食堂模式</item>
+	</string-array>
+	<string name="sec">模式二</string>
+	<string-array name="modesec">
+	    <item>打饭机</item>
+	    <item>非打饭机</item>
+	</string-array>
+	
+</resources>
