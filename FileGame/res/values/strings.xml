@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Game</string>
+    <string name="hello_world">Hello world!</string>
+	<color name="title">#ff1983b6</color>
+	<color name="white">#ffffffff</color>
+	<string name="main_title_text">模拟器  游戏目录Sdcard/Game</string>
+	<string name="file_title_text">游戏列表</string>
+	<string name="file_dialog_text">知道了</string>
+	<string name="action_settings">按键配置</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+	<dimen name="title_padding">8dp</dimen>
+	<dimen name="simulator_item_padding">8dp</dimen>
+	<dimen name="simulator_item_text_left">5dp</dimen>
+	<dimen name="file_item_padding">8dp</dimen>
+	<dimen name="file_item_text_left">5dp</dimen>
+</resources>

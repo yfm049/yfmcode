@@ -1,0 +1,14 @@
+[
+	{"logo":"ngp.png","name":"PSP","packagename":"com.xiaoji.emu.psp","activityname":"com.xiaoji.emu.psp.Main","settingname":"","type":"","suffixs":"iso"},
+	{"logo":"ngp.png","name":"NDS","packagename":"com.xiaoji.emu.ds4droid","activityname":"com.xiaoji.emu.ds4droid.Main","settingname":"","type":"","suffixs":"nds"},
+	{"logo":"ngp.png","name":"ARCADE/FBA","packagename":"com.xiaoji.emu.afba","activityname":"fr.mydedibox.afba.emulator.activity.Main","settingname":"","type":"","suffixs":"zip"},
+	{"logo":"ngp.png","name":"PS","packagename":"com.xiaoji.emu.ePSXe","activityname":"com.epsxe.ePSXe.ePSXe","settingname":"","type":"","suffixs":".img"},
+	{"logo":"ngp.png","name":"SFC/SNES","packagename":"com.xiaoji.emu.SNesoid","activityname":"com.androidemu.snes.EmulatorActivity","settingname":"","type":"","suffixs":".sfc,.smc"},
+	{"logo":"ngp.png","name":"MD","packagename":"com.androidemu.gens","activityname":"com.androidemu.gens.EmulatorActivity","settingname":"","type":"","suffixs":".smd"},
+	{"logo":"ngp.png","name":"WSC","packagename":"com.xiaoji.emu.wsc","activityname":"uk.org.cardboardbox.wonderdroid.Main","settingname":"","type":"","suffixs":".ws,.wsc"},
+	{"logo":"ngp.png","name":"N64","packagename":"com.xiaoji.emu.n64","activityname":"com.xiaoji.emu.n64.Main","settingname":"","type":"","suffixs":".v64,.n64"},
+	{"logo":"ngp.png","name":"GBA","packagename":"com.fastemulator.gba","activityname":"com.fastemulator.gba.EmulatorActivity","settingname":"","type":"","suffixs":".gba"},
+	{"logo":"ngp.png","name":"FC/NES","packagename":"com.xiaoji.emu.Nesoid","activityname":"com.androidemu.nes.EmulatorActivity","settingname":"","type":"","suffixs":".nes"},
+	{"logo":"ngp.png","name":"GBC","packagename":"com.xiaoji.emu.GBCoid","activityname":"com.androidemu.gbc.EmulatorActivity","settingname":"","type":"","suffixs":".gbc,.gb"},
+	{"logo":"ngp.png","name":"GG","packagename":"com.androidemu.gg","activityname":"com.androidemu.gg.EmulatorActivity","settingname":"","type":"","suffixs":".gg,.sms"}
+]
