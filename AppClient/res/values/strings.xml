@@ -1,0 +1,77 @@
+<resources>
+
+    <string name="app_name">AppClient</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">AppClient</string>
+    <string name="btn_login">登陆</string>
+    <string name="btn_reg">注册</string>
+    <string name="hint">用户名</string>
+    <string name="name_text">用户名:</string>
+    <string name="psw_text_next">确认密码:</string>
+    <string name="psw_text">密码:</string>
+    <string name="hint_psw">密码</string>
+    <string name="desc">imageButton</string>
+    <string name="booking_text">机票查询</string>
+    <string name="mytrip_text">我的订单</string>
+    <string name="member_text">会员管理</string>
+    <string name="tripguide_text">出行向导</string>
+    <string name="planeinfo_text">航班信息</string>
+    <string name="setting_text">系统设置</string>
+    <string name="booking_title">机票查询</string>
+    <string name="get_booking_info">机票信息</string>
+    <string name="login_title">用户登录</string>
+    <string name="reg_title">用户注册</string>
+    <string name="left_text">单程</string>
+    <string name="right_text">来回程</string>
+    <string name="start_airport">出发城市</string>
+    <string name="end_airport">到达城市</string>
+    <string name="start_time">出发时间选择</string>
+    <string name="booking_btn">查询结果</string>
+    <string name="plane_level">舱位等级</string>
+    <string name="manage_title">会员管理</string>
+    <string name="user_ticket_info">我的预定</string>
+    <string name="plane_way_text">————></string>
+    <string name="my_plane_way_text">飞行路线:</string>
+    <string name="time_user_ticket_info_text">出发时间:</string>
+    <string name="price_user_ticket_info_text">票价:</string>
+    <string name="airport_user_ticket_info_text">机场:</string>
+    <string name="level_user_ticket_info_text">舱位等级:</string>
+    <string name="manager_login_text">登陆</string>
+    <string name="manager_reg_text">注册</string>
+    <string name="get_plane_info_text">航班信息</string>
+    <string name="get_plane_info_way_text">航班路线:</string>
+    <string name="get_plane_info_single_text">————></string>
+    <string name="mBtnText">预定</string>
+    <string name="setting">设置</string>
+    <string name="member_data">我的信息</string>
+    <string name="mem_data_username">用户名:</string>
+    <string name="mem_data_modify">修改密码</string>
+    <string name="modify_user_psw_text">密码修改</string>
+    <string name="modify_psw_text">新密码:</string>
+    <string name="modify_psw_hint">输入新密码</string>
+    <string name="modify_psw_btn">提交</string>
+    
+    <string-array name="city">
+        <item >北京</item>
+        <item >武汉</item>
+        <item >广州</item>
+        <item >香港</item>
+        <item >杭州</item>
+        <item >福州</item>
+        <item >洛杉矶</item>
+        <item >纽约</item>
+        <item >沈阳</item>
+        <item >成都</item>
+        <item >拉萨</item>
+        <item >乌鲁木齐</item>
+        <item >南昌</item>
+        <item >长沙</item>
+        <item >合肥</item>
+        <item >南京</item>
+        <item >上海</item>
+        <item >纽约</item>
+		
+    </string-array>
+    
+</resources>

@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单编号：" />
+
+        <TextView
+            android:id="@+id/code_user_ticket_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20130515143815115" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="5dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        >
+
+        <TextView
+            android:id="@+id/my_plane_way_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_plane_way_text" />
+
+        <TextView
+            android:id="@+id/_from_user_ticket_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/my_plane_way_text" />
+
+        <TextView
+            android:id="@+id/plane_way_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/_from_user_ticket_info"
+            android:text="@string/plane_way_text" />
+
+        <TextView
+            android:id="@+id/_to_user_ticket_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/plane_way_text" />
+
+        <TextView
+            android:id="@+id/time_user_ticket_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/my_plane_way_text"
+            android:text="@string/time_user_ticket_info_text" />
+
+        <TextView
+            android:id="@+id/time_user_ticket_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/my_plane_way_text"
+            android:layout_toRightOf="@id/time_user_ticket_info_text" />
+
+        <TextView
+            android:id="@+id/price_user_ticket_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/time_user_ticket_info_text"
+            android:text="@string/price_user_ticket_info_text" />
+
+        <TextView
+            android:id="@+id/price_user_ticket_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time_user_ticket_info_text"
+            android:layout_toRightOf="@id/price_user_ticket_info_text" />
+
+        <TextView
+            android:id="@+id/airport_user_ticket_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/price_user_ticket_info_text"
+            android:text="@string/airport_user_ticket_info_text" />
+
+        <TextView
+            android:id="@+id/airport_user_ticket_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/price_user_ticket_info_text"
+            android:layout_toRightOf="@id/airport_user_ticket_info_text" />
+
+        <TextView
+            android:id="@+id/level_user_ticket_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/airport_user_ticket_info_text"
+            android:text="@string/level_user_ticket_info_text" />
+
+        <TextView
+            android:id="@+id/level_user_ticket_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/airport_user_ticket_info_text"
+            android:layout_toRightOf="@id/level_user_ticket_info_text" />
+    </RelativeLayout>
+
+</LinearLayout>

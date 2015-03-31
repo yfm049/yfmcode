@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#0000C6">
+        
+        <ImageView 
+            android:id="@+id/booking_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/back"
+            android:clickable="true"
+            android:contentDescription="@string/desc"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:textSize="10pt"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="@string/booking_title"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+    <TableLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_weight="1.0">
+        <TableRow >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start_airport"
+                android:textSize="10pt"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="10dp"/>
+            <Spinner 
+                android:id="@+id/booking_sp_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="7dp"/>
+            
+        </TableRow>
+         <TableRow 
+            android:layout_marginTop="30dp">
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/end_airport"
+                android:textSize="10pt"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="10dp"/>
+       
+            <Spinner 
+                android:id="@+id/booking_sp_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="7dp"/>
+            
+        </TableRow>
+        <TableRow 
+            android:layout_marginTop="30dp">
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plane_level"
+                android:textSize="10pt"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="10dp"/>
+       
+            <Spinner 
+                android:id="@+id/booking_sp_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="7dp"/>
+            
+        </TableRow>
+        
+      </TableLayout> 
+        
+        
+        <Button 
+            android:id="@+id/booking_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="@string/start_time"/>
+        <Button 
+            android:id="@+id/booking_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="#750000"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:text="@string/booking_btn"/>
+        
+    
+   </LinearLayout> 
+</RelativeLayout>

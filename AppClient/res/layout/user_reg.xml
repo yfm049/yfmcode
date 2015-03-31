@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#0000C6">
+        
+        <ImageView 
+            android:id="@+id/booking_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/back"
+            android:clickable="true"
+            android:contentDescription="@string/desc"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="@string/reg_title"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="35dip"
+            android:text="@string/name_text" />
+
+        <EditText
+            android:id="@+id/reg_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/name_text"
+            android:layout_marginLeft="41dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="30dip"
+            android:hint="@string/hint" >
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/text_psw"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reg_name"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="50dip"
+            android:text="@string/psw_text" />
+
+        <EditText
+            android:id="@+id/reg_psw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="41dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="125dip"
+            android:layout_toRightOf="@id/text_psw"
+            android:hint="@string/hint_psw"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/text_psw_next"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reg_psw"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="50dip"
+            android:text="@string/psw_text_next" />
+
+        <EditText
+            android:id="@+id/reg_psw_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="41dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="220dip"
+            android:layout_toRightOf="@id/text_psw_next"
+            android:hint="@string/hint_psw"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/reg_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_psw_next"
+            android:layout_marginLeft="40dip"
+            android:layout_marginRight="40dip"
+            android:layout_marginTop="50dip"
+            android:gravity="center"
+            android:text="@string/manager_reg_text" />
+    </RelativeLayout>
+
+    
+</LinearLayout>
