@@ -1,0 +1,197 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+com.forcetech.android.ForceTV
+com.forcetech.android.ForceTV: int start(int,int)
+com.forcetech.android.ForceTV: int stop()
+com.iptv.App.IptvApp
+com.iptv.App.IptvApp: IptvApp()
+com.iptv.ovpbox.R$color: int baise
+com.iptv.ovpbox.R$color: int heise
+com.iptv.ovpbox.R$dimen: int activity_horizontal_margin
+com.iptv.ovpbox.R$dimen: int activity_vertical_margin
+com.iptv.ovpbox.R$drawable: int apk
+com.iptv.ovpbox.R$drawable: int apkclick
+com.iptv.ovpbox.R$drawable: int backbackground
+com.iptv.ovpbox.R$drawable: int bl1_a
+com.iptv.ovpbox.R$drawable: int bl1_b
+com.iptv.ovpbox.R$drawable: int bl3_a
+com.iptv.ovpbox.R$drawable: int bl3_b
+com.iptv.ovpbox.R$drawable: int bl6_a
+com.iptv.ovpbox.R$drawable: int bl6_b
+com.iptv.ovpbox.R$drawable: int bl7_a
+com.iptv.ovpbox.R$drawable: int bl7_b
+com.iptv.ovpbox.R$drawable: int date_saturday_f
+com.iptv.ovpbox.R$drawable: int date_tuesday_s
+com.iptv.ovpbox.R$drawable: int date_wednesday_f
+com.iptv.ovpbox.R$drawable: int dbbg
+com.iptv.ovpbox.R$drawable: int dbcontent
+com.iptv.ovpbox.R$drawable: int dbic_logo
+com.iptv.ovpbox.R$drawable: int dbtitle
+com.iptv.ovpbox.R$drawable: int ic_launcher
+com.iptv.ovpbox.R$drawable: int info
+com.iptv.ovpbox.R$drawable: int info_c_db
+com.iptv.ovpbox.R$drawable: int infobclick
+com.iptv.ovpbox.R$drawable: int item
+com.iptv.ovpbox.R$drawable: int live
+com.iptv.ovpbox.R$drawable: int live_c_db
+com.iptv.ovpbox.R$drawable: int live_channel_list_bg
+com.iptv.ovpbox.R$drawable: int livec_favourite1
+com.iptv.ovpbox.R$drawable: int liveclick
+com.iptv.ovpbox.R$drawable: int local
+com.iptv.ovpbox.R$drawable: int local_c
+com.iptv.ovpbox.R$drawable: int localclick
+com.iptv.ovpbox.R$drawable: int market_c
+com.iptv.ovpbox.R$drawable: int nav
+com.iptv.ovpbox.R$drawable: int noselect
+com.iptv.ovpbox.R$drawable: int noselectitem
+com.iptv.ovpbox.R$drawable: int noselectlr
+com.iptv.ovpbox.R$drawable: int playback
+com.iptv.ovpbox.R$drawable: int playback_c_db
+com.iptv.ovpbox.R$drawable: int playbackclick
+com.iptv.ovpbox.R$drawable: int programnoselect
+com.iptv.ovpbox.R$drawable: int programselect
+com.iptv.ovpbox.R$drawable: int riqiselect_c
+com.iptv.ovpbox.R$drawable: int select
+com.iptv.ovpbox.R$drawable: int selectitem
+com.iptv.ovpbox.R$drawable: int selectlr
+com.iptv.ovpbox.R$drawable: int setup
+com.iptv.ovpbox.R$drawable: int setup_c_db
+com.iptv.ovpbox.R$drawable: int setupclick
+com.iptv.ovpbox.R$drawable: int tanchu_btn_no
+com.iptv.ovpbox.R$drawable: int tanchu_btn_point
+com.iptv.ovpbox.R$drawable: int tubiao
+com.iptv.ovpbox.R$drawable: int web
+com.iptv.ovpbox.R$drawable: int webclick
+com.iptv.ovpbox.R$drawable: int webmovie_c
+com.iptv.ovpbox.R$id: int LinearLayout1
+com.iptv.ovpbox.R$id: int LinearLayout2
+com.iptv.ovpbox.R$id: int RelativeLayout1
+com.iptv.ovpbox.R$id: int TextView01
+com.iptv.ovpbox.R$id: int action_settings
+com.iptv.ovpbox.R$id: int appgird
+com.iptv.ovpbox.R$id: int appname
+com.iptv.ovpbox.R$id: int data
+com.iptv.ovpbox.R$id: int fav
+com.iptv.ovpbox.R$id: int fname
+com.iptv.ovpbox.R$id: int icon
+com.iptv.ovpbox.R$id: int info
+com.iptv.ovpbox.R$id: int jmlist
+com.iptv.ovpbox.R$id: int livetv
+com.iptv.ovpbox.R$id: int localfile
+com.iptv.ovpbox.R$id: int loginbut
+com.iptv.ovpbox.R$id: int mac
+com.iptv.ovpbox.R$id: int market
+com.iptv.ovpbox.R$id: int name
+com.iptv.ovpbox.R$id: int palyview
+com.iptv.ovpbox.R$id: int pass
+com.iptv.ovpbox.R$id: int pdlist
+com.iptv.ovpbox.R$id: int pdlogo
+com.iptv.ovpbox.R$id: int playback
+com.iptv.ovpbox.R$id: int playlist
+com.iptv.ovpbox.R$id: int pname
+com.iptv.ovpbox.R$id: int progress
+com.iptv.ovpbox.R$id: int progressBar1
+com.iptv.ovpbox.R$id: int ptime
+com.iptv.ovpbox.R$id: int systemsetup
+com.iptv.ovpbox.R$id: int textView2
+com.iptv.ovpbox.R$id: int timegroup
+com.iptv.ovpbox.R$id: int title
+com.iptv.ovpbox.R$id: int titlelayout
+com.iptv.ovpbox.R$id: int tvitem
+com.iptv.ovpbox.R$id: int webmovie
+com.iptv.ovpbox.R$id: int xuhao
+com.iptv.ovpbox.R$layout: int activity_allapp
+com.iptv.ovpbox.R$layout: int activity_allapp_item
+com.iptv.ovpbox.R$layout: int activity_back
+com.iptv.ovpbox.R$layout: int activity_backplay
+com.iptv.ovpbox.R$layout: int activity_home_db
+com.iptv.ovpbox.R$layout: int activity_login
+com.iptv.ovpbox.R$layout: int activity_main
+com.iptv.ovpbox.R$layout: int activity_pindao_item
+com.iptv.ovpbox.R$layout: int activity_play
+com.iptv.ovpbox.R$layout: int activity_play_lisg
+com.iptv.ovpbox.R$layout: int activity_play_lisg_item
+com.iptv.ovpbox.R$layout: int activity_pro_item
+com.iptv.ovpbox.R$layout: int radioitem
+com.iptv.ovpbox.R$menu: int main
+com.iptv.ovpbox.R$string: int action_settings
+com.iptv.ovpbox.R$string: int app_name
+com.iptv.ovpbox.R$string: int hello_world
+com.iptv.ovpbox.R$style: int AppBaseTheme
+com.iptv.ovpbox.R$style: int AppTheme
+com.iptv.pro.AllAppActivity
+com.iptv.pro.AllAppActivity: AllAppActivity()
+com.iptv.pro.BackActivity
+com.iptv.pro.BackActivity: BackActivity()
+com.iptv.pro.BackPlayActivity
+com.iptv.pro.BackPlayActivity: BackPlayActivity()
+com.iptv.pro.HomeActivity
+com.iptv.pro.HomeActivity: HomeActivity()
+com.iptv.pro.LoginActivity
+com.iptv.pro.LoginActivity: LoginActivity()
+com.iptv.pro.PlayActivity
+com.iptv.pro.PlayActivity: PlayActivity()
+com.iptv.pro.UpdateService
+com.iptv.pro.UpdateService: UpdateService()
