@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="category_color_select">#F5801F</color>
+    <color name="category_color">#000000</color>
+    <color name="tabnoselect_color">#FFFFFF</color>
+    <color name="tabselect_color">#F5801F</color>
+    <color name="bai_color">#FFFFFF</color>
+    <color name="hei_color">#000000</color>
+    <color name="backplaychannel_color">#EE5C42</color>
+</resources>

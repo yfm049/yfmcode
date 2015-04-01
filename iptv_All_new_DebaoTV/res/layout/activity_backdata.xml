@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backbround_backplay"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="39"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1018" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1800"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="969" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="451"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="88" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="881"
+                        android:orientation="vertical"
+                        android:padding="@dimen/channel_list_padding" >
+
+                        <ListView
+                            android:id="@+id/channellist"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:cacheColorHint="@null"
+                            android:divider="@drawable/notice_list_divider"
+                            android:dividerHeight="1dp"
+                            android:visibility="gone" >
+
+                        </ListView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="24"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1325"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="88" >
+
+                        <RadioGroup
+                            android:id="@+id/rqselect"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" >
+
+                            <RadioButton
+                                android:id="@+id/backrq1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/radio_tab"
+                                android:button="@null"
+                                android:gravity="center"
+                                android:text="2013-10-25"
+                                android:textColor="@drawable/tab_color_c"
+                                android:textSize="@dimen/backrq_size" />
+
+                            <RadioButton
+                                android:id="@+id/backrq2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/radio_tab"
+                                android:button="@null"
+                                android:gravity="center"
+                                android:text="2013-10-25"
+                                android:textColor="@drawable/tab_color_c"
+                                android:textSize="@dimen/backrq_size" />
+
+                            <RadioButton
+                                android:id="@+id/backrq3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/radio_tab"
+                                android:button="@null"
+                                android:gravity="center"
+                                android:text="2013-10-25"
+                                android:textColor="@drawable/tab_color_c"
+                                android:textSize="@dimen/backrq_size" />
+
+                            <RadioButton
+                                android:id="@+id/backrq4"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/radio_tab"
+                                android:button="@null"
+                                android:gravity="center"
+                                android:text="2013-10-25"
+                                android:textColor="@drawable/tab_color_c"
+                                android:textSize="@dimen/backrq_size" />
+
+                            <RadioButton
+                                android:id="@+id/backrq5"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/radio_tab"
+                                android:button="@null"
+                                android:gravity="center"
+                                android:text="2013-10-25"
+                                android:textColor="@drawable/tab_color_c"
+                                android:textSize="@dimen/backrq_size"  />
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="881"
+                        android:orientation="vertical" >
+
+                        <ListView
+                            android:id="@+id/backlist"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#00000000"
+                            android:cacheColorHint="#00000000"
+                            android:divider="@drawable/notice_list_divider"
+                            android:dividerHeight="1dp"
+                            android:visibility="gone" >
+
+                        </ListView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="49"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="133"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="127"
+                    android:orientation="vertical" >
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1540"
+                    android:gravity="left|center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/currdate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2013-15-17"
+                        android:textColor="@color/bai_color"
+                        android:textSize="@dimen/currdate_size" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="23" >
+    </LinearLayout>
+
+</LinearLayout>
