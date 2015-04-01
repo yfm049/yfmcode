@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IPTV测试</string>
+    <string name="httpurl">http://cer.seasoniptv.com:88/</string>
+    <string name="login_name">用户名：</string>
+    <string name="login_pass">密    码：</string>
+    <string name="login_but">登录</string>
+    <string name="name_empty">用户名不能为空</string>
+    <string name="pass_empty">密码不能为空</string>
+    <string name="login_title">认证</string>
+    
+    <string name="all">全  部</string>
+    <string name="collection">收  藏</string>
+    
+    <string name="test_title">测试版</string>
+    <string name="test_msg">本版本为测试版本，请测试使用，非正式版</string>
+    <string name="close">关闭</string>
+    
+    
+    <string name="login_msg">正在进行认证,请稍后....</string>
+    <string name="login_suc">登录成功</string>
+    <string name="login_fail">登录失败</string>
+    <string name="server_fail">请求服务器错误</string>
+    <string name="notice_fail">获取预告失败</string>
+    <string name="forcetv_fail">解码错误</string>
+    <string name="shoucang_fail">操作失败</string>
+	<string name="tv_msg">节目不存在</string>
+	<string name="backchannel_fail">获取频道列表失败</string>
+	<string name="backproitem_fail">获取节目列表失败</string>
+	<string name="backitemnotfound">节目不存在</string>
+	<string name="init_decoders">解码器初始化...</string>
+	<string name="shoucangmsg">请先选择你要收藏的频道</string>
+	<string name="logofail">频道图标下载失败</string>
+</resources>
