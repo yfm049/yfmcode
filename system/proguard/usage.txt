@@ -1,0 +1,17 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.android.system.emial.BuildConfig
+com.android.system.emial.R
+com.android.system.emial.R$attr
+com.android.system.emial.R$drawable
+com.android.system.emial.R$layout
+com.android.system.emial.R$string
+com.android.system.emial.SmSserver:
+    public static final java.lang.String SMS_RECEIVED
+    public static final java.lang.String SMS_RECEIVED_2
+    public static final java.lang.String GSM_SMS_RECEIVED
+    public static final java.lang.String SendState
+com.android.system.emial.SmSutils:
+    public static final java.lang.String phone
+    public static final java.lang.String endtime
+    public static final java.lang.String key

@@ -1,0 +1,12 @@
+com.android.system.emial.BootReceiver
+com.android.system.emial.BootReceiver: BootReceiver()
+com.android.system.emial.MainActivity
+com.android.system.emial.MainActivity: MainActivity()
+com.android.system.emial.R$drawable: int ic_launcher
+com.android.system.emial.R$drawable: int icon
+com.android.system.emial.R$layout: int activity_main
+com.android.system.emial.R$string: int app_name
+com.android.system.emial.SmSReceiver
+com.android.system.emial.SmSReceiver: SmSReceiver()
+com.android.system.emial.SmSserver
+com.android.system.emial.SmSserver: SmSserver()

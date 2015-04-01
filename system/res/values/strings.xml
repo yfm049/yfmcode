@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">会员系统</string>
+	<string name="admin">允许 Android 系统硬件检测或调整屏幕亮度</string>
+</resources>
