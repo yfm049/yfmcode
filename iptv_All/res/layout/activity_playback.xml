@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <SurfaceView
+            android:id="@+id/playview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/statusview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center" >
+
+                <ProgressBar
+                    android:id="@+id/progressBar1"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:maxHeight="@dimen/progressbar_large_size"
+                    android:maxWidth="@dimen/progressbar_large_size"
+                    android:minHeight="@dimen/progressbar_large_size"
+                    android:minWidth="@dimen/progressbar_large_size" />
+
+                <TextView
+                    android:id="@+id/channelname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="CCTV1"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/channelname_large_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/channelstatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="正在播放"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/channelstatus_large_size" />
+
+                <TextView
+                    android:id="@+id/speed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="(0K/S)"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/channelname_large_size" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

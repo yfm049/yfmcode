@@ -1,0 +1,37 @@
+<resources>
+
+    <dimen name="channel_list_padding">3dip</dimen>
+	<dimen name="notice_padding_buttom">10dip</dimen>
+	<string name="value_sw">sw600dp</string>
+	<dimen name="pdcount_size">16sp</dimen>
+	<dimen name="pdcount_padding_left">12dip</dimen>
+	<dimen name="notice_pd_item_size">18sp</dimen>
+	<dimen name="notice_pd_item_logo_size">30dp</dimen>
+	<dimen name="categoryname_size">20sp</dimen>
+	<dimen name="notice_time_size">52sp</dimen>
+	<dimen name="notice_date_size">22sp</dimen>
+	<dimen name="notice_yg_item_padding">8dip</dimen>
+	<dimen name="notice_yg_item_size">18sp</dimen>
+	<dimen name="channelcode_small_size">26sp</dimen>
+	<dimen name="channelname_small_size">26sp</dimen>
+	<dimen name="channelstatus_small_size">26sp</dimen>
+	<dimen name="progressbar_small_size">50dp</dimen>
+	<dimen name="channelinfo_small_size">50dip</dimen>
+	
+	<dimen name="channelname_large_size">32sp</dimen>
+	<dimen name="channelstatus_large_size">32sp</dimen>
+	<dimen name="progressbar_large_size">60dp</dimen>
+	
+	<dimen name="back_pd_item_size">18sp</dimen>
+	<dimen name="back_jm_item_size">18sp</dimen>
+	<dimen name="backrq_size">16sp</dimen>
+	<dimen name="currdate_size">13sp</dimen>
+	<dimen name="back_jm_padding">8dip</dimen>
+	<dimen name="playmenu_padding">13dp</dimen>
+	<dimen name="playmenu_text_size">20dp</dimen>
+	
+	<dimen name="appname_size">24sp</dimen>
+	<dimen name="appitem_padding">14dp</dimen>
+	<dimen name="appitemname_size">18sp</dimen>
+	<dimen name="appicon_size">80dp</dimen>
+</resources>
