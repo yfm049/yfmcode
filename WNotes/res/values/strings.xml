@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="recordremind_name">日程信息</string>
+	<string name="remindsetting_name">提醒设置</string>
+	<string name="bt_tady">今 天</string>
+	<string name="app_name">WNotes</string>
+	<string name="about">关于</string>
+	<string name="help">帮助</string>
+	<string name="helpMsg">	
+		本日程表程序是用来记录信息的，可以为每条记录设置提示时间。\n\n
+
+		****添加记录****\n
+		可以添加一条记录\n
+		添加新记录时可以指定记录提示的日期和时间。\n\n
+
+		****修改/查看记录****\n
+		1.可以修改任意一条记录\n
+		2.可以查看任意一条记录\n\n
+		
+		****删除记录****\n
+		可以删除任意一条记录\n\n
+		
+		****关于****\n
+		查看记事本相关信息\n\n
+		
+		****帮助****\n
+		查看记事本帮助信息\n\n
+</string>
+</resources>
