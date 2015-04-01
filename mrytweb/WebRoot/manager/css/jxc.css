@@ -1,0 +1,60 @@
+body {
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #000;
+	background-color: #FFFFFF;
+	margin: 0px;
+	overflow: auto;
+	padding: 5px;
+	height: 100%;
+}
+.menu{
+	border: 1px solid #CCCCCC;
+	background-color: #EEF2FB;
+	padding: 3px;
+	height: 25px;
+}
+.table{
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	border-spacing: 1px;;
+	width: 100%;
+	font-size: 13px;
+}
+.table td{
+	border: 1px solid #CCCCCC;
+	padding: 4px;
+	text-align: center;
+}
+.table th{
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	background-color: #EEF2FB;
+	font-weight: 100;
+}
+.table td input{
+	width: 100%;
+	height: 100%;
+}
+.page{
+	margin-top:10px;
+	border: 1px solid #CCCCCC;
+	padding: 2px;
+}
+.total table{
+	width: 100%;
+	border: 1px solid #CCCCCC;
+	margin-top: 5px;
+	font-size: 13px;
+}
+.info table{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 1px;
+	border: 1px solid #CCCCCC;
+	margin-top: 5px;
+	font-size: 13px;
+}
+.info td{
+	border: 1px solid #CCCCCC;
+	padding: 3px;
+}
