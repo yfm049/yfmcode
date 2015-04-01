@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">宁晋百事通</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="start_but">开始使用</string>
+    
+    <string name="login_title_text">登录</string>
+    <string name="reg_title_text">注册</string>
+    <string name="reg_but_text">注册</string>
+    <string name="login_but_text">登录</string>
+    <string name="forget_text">忘记密码?</string>
+    <string name="register_text">注册</string>
+    <string name="qq_login_text">QQ账号登录</string>
+	<string name="weixin_login_text">微信账号登录</string>
+	<string name="login_hint">手机号</string>
+	<string name="pass_hint">密码</string>
+	<string name="confirm_pass_hint">确认密码</string>
+	<string name="home_text">主页</string>
+	<string name="search_text">搜索</string>
+	<string name="new_text">新闻</string>
+	<string name="my_text">我的</string>
+	<string name="my_loginreg_but_text">登录/注册</string>
+	<string name="more_text">宁晋123</string>
+	<string name="home_title_text">宁晋百事通</string>
+	<string name="home_title_buttom_text">便捷生活 马上开始</string>
+	<string name="home_jihui_but_text">今日集会</string>
+	<string name="home_huangli_but_text">今日黄历</string>
+	<string name="new_title_text">发现</string>
+	<string name="my_title_text">个人中心</string>
+	
+	<string name="my_userinfo_text">会员信息</string>
+	<string name="my_integral_text">积分信息</string>
+	<string name="my_secure_text">修改密码</string>
+	
+	<string name="my_name_text">姓名: </string>
+	<string name="my_sex_text">性别: </string>
+	<string name="my_age_text">年龄: </string>
+	<string name="my_address_text">地址: </string>
+	<string name="my_phone_text">手机: </string>
+	<string name="my_edit_text">确定</string>
+	
+	<string name="my_sex_nan_text">男</string>
+	<string name="my_sex_nv_text">女</string>
+	
+	<string name="my_exitbut_text">退出登录</string>
+	
+	<string name="my_name_warn">姓名不能为空</string>
+	<string name="my_age_warn">年龄在1-200之间 </string>
+	<string name="my_address_warn">地址不能为空</string>
+	<string name="my_phone_warn">号码格式不正确</string>
+	
+	<string name="jihui_title_text">今日集会</string>
+	<string name="jihui_today_jihui_text">今日赶集</string>
+	<string name="jihui_today_miaohui_text">今日庙会</string>
+	<string name="huangli_title_text">今日黄历</string>
+	
+	<string name="sale_title_text">商品打折</string>
+	<string name="accumulate_title_text">积赞有礼</string>
+	<string name="accumulate_item_count_text">所需要的赞:</string>
+	
+	<string name="promotion_title_text">商家促销</string>
+	<string name="integral_title_text">积分兑换</string>
+	
+	<string name="my_integral_title_text">已兑换商品</string>
+	<string name="my_integral_exchange_title_text">已兑换商品</string>
+	<string name="city_title_text">城市</string>
+	
+	<string name="weather_title_text">天气预报</string>
+	<string name="zhuanfa_but_text">转发</string>
+	<string name="fabiao_but_text">发表</string>
+	
+	<string name="popwindow_zhuanfa_qq_text">QQ</string>
+	<string name="popwindow_zhuanfa_sina_text">新浪微博</string>
+	<string name="popwindow_zhuanfa_wx_text">微信</string>
+	<string name="popwindow_zhuanfa_qqkj_text">QQ空间</string>
+	<string name="popwindow_zhuanfa_sms_text">更多</string>
+	
+	<string name="phone_toast">手机号码必须为11位整数</string>
+	<string name="pass_toast">密码最小6位</string>
+	<string name="passed_toast">确认密码错误</string>
+	<string name="reging_msg">注册中...</string>
+	<string name="loginging_msg">登录中...</string>
+	
+	<string name="loginfail_msg">登录失败</string>
+	<string name="server_error">系统异常...</string>
+	<string name="search_item_tel_text">电话: </string>
+	<string name="search_item_address_text">地址: </string>
+	<string name="loading">正在请求...</string>
+	<string name="load_fail">加载失败</string>
+	
+	<string name="forget_title_text">忘记密码</string>
+	<string name="forget_yzmbut_text">获取验证码</string>
+	<string name="forget_auth_text">验证码</string>
+	<string name="forget_but_text">下一步</string>
+	<string name="password_title_text">设置密码</string>
+	<string name="password_but_text">确定</string>
+	<string name="share_suc_text">分享成功</string>
+	<string name="share_fail_text">分享失败</string>
+	<string name="more_title_text">宁晋123</string>
+	<string name="yzmcode_error">验证码不能为空</string>
+	
+	<string name="more_tab_qzzp_text">求职招聘</string>
+	<string name="more_tab_fcxx_text">房产信息</string>
+	<string name="more_tab_esmm_text">二手买卖</string>
+	<string name="more_tab_zhjy_text">征婚交友</string>
+	
+	<string name="more_but_fbxx_but_text">发布信息</string>
+	<string name="more_but_cxsc_but_text">查询/删除</string>
+	<string name="more_but_text">发布</string>
+	
+	<string name="report_title_text">发布信息</string>
+	<string name="report_first_text">发布类型</string>
+	<string name="report_sec_text">信息类型</string>
+	<string name="exit_msg">再按一次退出程序</string>
+	<string-array name="qzzp">
+	    <item>求职</item>
+	    <item>招聘</item>
+	    <item>兼职</item>
+	</string-array>
+	<string-array name="fcxx">
+	    <item>出租</item>
+	    <item>求租</item>
+	    <item>买房</item>
+	    <item>卖房</item>
+	    <item>转让</item>
+	</string-array>
+	<string-array name="esmm">
+	    <item>出售</item>
+	    <item>求购</item>
+	</string-array>
+	<string-array name="zhjy">
+	    <item>征婚</item>
+	    <item>交友</item>
+	</string-array>
+	<string name="reporting">发布中...</string>
+	<string name="report_biaoti_text">标题</string>
+	<string name="report_con_text">内容</string>
+	<string name="report_tel_text">手机号</string>
+	<string name="report_qq_text">QQ</string>
+	<string name="report_pwd_text">删除密码</string>
+	<string name="report_pwded_text">确认删除密码</string>
+	<string name="report_savebut_text">确认</string>
+	<string name="report_cancelbut_text">返回</string>
+	
+	<string name="report_biaoti_warn">标题不能为空</string>
+	<string name="report_con_warn">内容不能为空</string>
+	<string name="report_tel_warn">手机号码格式不正确</string>
+	<string name="report_qq_warn">QQ不能为空</string>
+	<string name="report_pwd_warn">删除密码不能为空,最短6位</string>
+	<string name="report_pwded_warn">确认密码不正确</string>
+	
+	<string name="report_searchdelete_title_text">查询/删除</string>
+	
+	<string name="jubao_title_text">举报</string>
+	<string name="jubao_type_text">举报类型</string>
+	<string name="jubao_qizha_text">欺诈</string>
+	<string name="jubao_seqing_text">色情</string>
+	<string name="jubao_qita_text">其他</string>
+	<string name="jubao_name_text">你的姓名</string>
+	<string name="jubao_tel_text">你的手机号</string>
+	<string name="jubao_but_text">举报</string>
+	<string name="jubao_name_warn">姓名不能为空</string>
+	<string name="jubao_tel_warn">手机号码格式不正确</string>
+	
+	<string name="myintegral_warn">你还没有兑换过商品</string>
+	
+</resources>

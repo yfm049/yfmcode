@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <Head>
+    <Command>CallWaiter</Command>
+    <TransferType>C2S</TransferType>
+    <!--可选：C2S:客户端发给服务器   S2C:服务器发给客户端-->
+    <ClientType>Android</ClientType>
+    <ClientVersion>1.0</ClientVersion>
+    <Password>1</Password>
+  </Head>
+  <Body>    
+       <DeskId>1</DeskId>
+  </Body>
+</Root>

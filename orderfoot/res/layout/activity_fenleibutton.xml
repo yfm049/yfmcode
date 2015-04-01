@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/flbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/tab_height"
+        android:layout_margin="@dimen/tab_padding"
+        android:background="@drawable/fenlei_click_1"
+        android:text="套餐"
+        android:textColor="@color/tab_text_color"
+        android:textSize="@dimen/tab_text_size" />
+
+</LinearLayout>

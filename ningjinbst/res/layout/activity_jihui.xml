@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/jihui_bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_bg" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/huangli_tiem_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jihui_title_text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/title_color" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioGroup
+            android:id="@+id/timegroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/nan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/jihui_tab"
+                android:button="@null"
+                android:gravity="center"
+                android:maxLines="2"
+                android:textColor="@color/jihui_tab_color" />
+
+            <RadioButton
+                android:id="@+id/nv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/jihui_padding"
+                android:layout_marginRight="@dimen/jihui_padding"
+                android:layout_weight="1"
+                android:background="@drawable/jihui_tab"
+                android:button="@null"
+                android:gravity="center"
+                android:maxLines="2"
+                android:textColor="@color/jihui_tab_color" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/jihui_tab"
+                android:button="@null"
+                android:gravity="center"
+                android:maxLines="2"
+                android:textColor="@color/jihui_tab_color" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/jihui_padding"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="@dimen/jihui_list_item_padding" >
+
+                <TextView
+                    android:id="@+id/huangli_item_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jihui_today_jihui_text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/jihui_child_tab_color" />
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/jihui_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/jihui_padding"
+                android:background="@color/white" >
+
+            </ListView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/jihui_padding"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="@dimen/jihui_list_item_padding" >
+
+                <TextView
+                    android:id="@+id/weathertext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jihui_today_miaohui_text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/jihui_child_tab_color" />
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/miaohui_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/jihui_padding"
+                android:background="@color/white" >
+
+            </ListView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

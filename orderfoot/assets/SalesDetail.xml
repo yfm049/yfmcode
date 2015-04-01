@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <Head>
+    <Command>SalesDetail</Command>
+    <TransferType>C2S</TransferType>
+    <!--可选：C2S:客户端发给服务器   S2C:服务器发给客户端-->
+    <ClientType>Android</ClientType>
+    <ClientVersion>1.0</ClientVersion>
+    <Password>1</Password>
+  </Head>
+  <Body>    
+        <Order OrderId="2014032692517840132042" TotalPrice="100" AddTime="2014-03-26" DeskId="1号桌">
+          <Products>
+            <Product>
+              <ProductId>2014032697362017207407</ProductId>
+              <Price>10</Price>
+              <Count>10</Count>
+              <Discount>100</Discount>
+              <Total>100</Total>
+            </Product>
+            <Product>
+              <ProductId>2014032697362017207409</ProductId>
+              <Price>10</Price>
+              <Count>3</Count>
+              <Discount>100</Discount>
+              <Total>30</Total>
+            </Product>
+          </Products>
+        </Order>
+  </Body>
+</Root>

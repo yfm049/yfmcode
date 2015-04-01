@@ -1,0 +1,295 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/meal_detail_bg"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="115"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1398"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="71"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60"
+            android:gravity="right" >
+
+            <Button
+                android:id="@+id/xuanzhuo"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/detail_zhuohao_text_wh"
+                android:background="@drawable/zhuohao_click"
+                android:text="26"
+                android:textColor="@color/white"
+                android:textSize="@dimen/detail_zhuohao_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="95" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1089" >
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="309"
+                android:gravity="center"
+                android:padding="10dp" >
+
+                <ImageButton
+                    android:id="@+id/hujiao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/detail_list_padding_lr"
+                    android:adjustViewBounds="true"
+                    android:background="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/detail_renyuan" />
+
+                <ImageButton
+                    android:id="@+id/tomealbut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/detail_list_padding_lr"
+                    android:adjustViewBounds="true"
+                    android:background="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/detail_shouye" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="317" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1089"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" >
+
+                <ListView
+                    android:id="@+id/detail_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:divider="@null" >
+
+                </ListView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="309"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="113"
+                    android:gravity="bottom|center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tprice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="消费金额 ¥ 288"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/detail_item_text_size" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="69"
+                    android:gravity="bottom|center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/yhprice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="优惠金额 ¥ 288"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/detail_item_text_size" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="71"
+                    android:gravity="bottom|center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/sjprice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="实际金额 ¥ 288"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/detail_item_text_size" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="64"
+                    android:orientation="vertical" >
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="196" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom|center"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom|center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/queren"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/detail_but_height"
+                    android:background="@drawable/detal_but_click_2"
+                    android:text="确认"
+                    android:textColor="@color/detail_but_text_color"
+                    android:textSize="@dimen/detail_but_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom|center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/fanhui"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/detail_but_height"
+                    android:background="@drawable/detal_but_click_3"
+                    android:text="返回"
+                    android:textColor="@color/detail_but_text_color"
+                    android:textSize="@dimen/detail_but_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom|center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/quxiao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/detail_but_height"
+                    android:background="@drawable/detal_but_click_4"
+                    android:text="取消"
+                    android:textColor="@color/detail_but_text_color"
+                    android:textSize="@dimen/detail_but_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom|center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/exit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/detail_but_height"
+                    android:background="@drawable/detal_but_click_5"
+                    android:text="退出"
+                    android:textColor="@color/detail_but_text_color"
+                    android:textSize="@dimen/detail_but_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom|center"
+                android:orientation="vertical" >
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="113"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="87"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+</LinearLayout>

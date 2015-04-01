@@ -1,0 +1,38 @@
+<resources>
+
+    <dimen name="login_text_size">24sp</dimen>
+    <dimen name="login_edit_height">35dip</dimen>
+    <dimen name="meal_list_text_size">16dip</dimen>
+    <dimen name="meal_list_padding_right">8dip</dimen>
+    <dimen name="tab_height">45dip</dimen>
+    
+    <dimen name="detail_item_text_size">16sp</dimen>
+    <dimen name="detail_item_width_1">190dip</dimen>
+    <dimen name="detail_item_width_2">100dip</dimen>
+    <dimen name="detail_item_width_3">110dip</dimen>
+    <dimen name="detail_item_width_4">110dip</dimen>
+    <dimen name="detail_item_width_5">110dip</dimen>
+    <dimen name="detail_item_width_6">130dip</dimen>
+    <dimen name="detail_item_width_7">80dip</dimen>
+    <dimen name="detail_item_height_7">30dip</dimen>
+    
+    
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="progress_height">3dip</dimen>
+    <dimen name="tab_text_size">18sp</dimen>
+    <dimen name="tab_padding">12dip</dimen>
+    <dimen name="zhuohao_text_size">20sp</dimen>
+	<dimen name="mealgrid_padding">15dip</dimen>
+	<dimen name="mealgrid_item_textsize">18sp</dimen>
+	<dimen name="meal_list_padding">3dip</dimen>
+	<dimen name="meal_add_height">30dip</dimen>
+	<dimen name="zhuohao_wh">60dip</dimen>
+	
+	
+	<dimen name="detail_but_text_size">20sp</dimen>
+	<dimen name="detail_but_height">50dip</dimen>
+	<dimen name="detail_zhuohao_text_size">16sp</dimen>
+	<dimen name="detail_zhuohao_text_wh">50dip</dimen>
+	<dimen name="detail_list_padding">7dip</dimen>
+	<dimen name="detail_list_padding_lr">5dip</dimen>
+</resources>

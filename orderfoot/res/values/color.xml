@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tab_text_color">#FFFFFF</color>
+    <color name="zhuohao_text_color">#FFFFFF</color>
+    <color name="detail_but_text_color">#FFFFFF</color>
+    <color name="red">#FF4301</color>
+</resources>

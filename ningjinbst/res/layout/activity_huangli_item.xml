@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/huangli_list_item_padding" >
+
+        <TextView
+            android:id="@+id/huangli_tiem_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2011年7月1日 星期一"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/huangli_item_title_color" />
+
+        <TextView
+            android:id="@+id/huangli_item_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="闰九月二五 甲午年 【马年】\r\n乙亥月 戊戌日 \r\n宜：祭祀    解除  进人口 忌：嫁娶"
+            android:textColor="@color/huangli_item_detail_color" />
+
+    </LinearLayout>
+
+</LinearLayout>

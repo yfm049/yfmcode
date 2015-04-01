@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="welcome_but_marginbottom">40dp</dimen>
+    <dimen name="logo_padding">20dp</dimen>
+	<dimen name="login_padding">10dp</dimen>
+	<dimen name="login_left_right">40dp</dimen>
+	<dimen name="main_tab_padding">8dp</dimen>
+	<dimen name="home_but_padding">1dp</dimen>
+	<dimen name="weather_data_padding">4dp</dimen>
+	<dimen name="new_nav_padding">4dp</dimen>
+	<dimen name="new_item_padding">6dp</dimen>
+	<dimen name="my_item_padding">9dp</dimen>
+	<dimen name="my_list_top">20dp</dimen>
+	<dimen name="my_edit_padding">8dp</dimen>
+	
+	<dimen name="jihui_padding">1dp</dimen>
+	<dimen name="jihui_list_item_padding">8dp</dimen>
+	<dimen name="huangli_list_item_padding">12dp</dimen>
+	<dimen name="accumulate_item_padding">4dp</dimen>
+	
+	<dimen name="integral_exchange_title_padding">4dp</dimen>
+	
+	<dimen name="sidebar_width">30dp</dimen>
+	<dimen name="city_item_padding">6dp</dimen>
+	<dimen name="new_detail_zhuanfabut_padding_right">10dp</dimen>
+	<dimen name="popwindow_zhuan_padding">5dp</dimen>
+	<dimen name="popwindow_edittext_padding">100dp</dimen>
+	<dimen name="popwindow_padding">15dp</dimen>
+	<dimen name="pager_height">342dp</dimen>
+	
+	<dimen name="search_item_padding">2dp</dimen>
+	<dimen name="forget_yzmbut_padding">15dp</dimen>
+	<dimen name="more_padding">1dp</dimen>
+	<dimen name="more_but_padding">6dp</dimen>
+	<dimen name="more_item_padding">3dp</dimen>
+	<dimen name="report_item_padding">2dp</dimen>
+</resources>

@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/detail_list_padding_lr"
+    android:paddingRight="@dimen/detail_list_padding_lr" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/detail_list_padding" >
+
+        <TextView
+            android:id="@+id/productname"
+            android:layout_width="@dimen/detail_item_width_1"
+            android:layout_height="wrap_content"
+            android:text="果汁奶茶300ML"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+            android:textSize="@dimen/detail_item_text_size" />
+
+        <TextView
+            android:id="@+id/shuliang"
+            android:layout_width="@dimen/detail_item_width_2"
+            android:layout_height="wrap_content"
+            android:text="x1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+            android:textSize="@dimen/detail_item_text_size" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="@dimen/detail_item_width_3"
+            android:layout_height="wrap_content"
+            android:text="￥28"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+            android:textSize="@dimen/detail_item_text_size" />
+
+        <TextView
+            android:id="@+id/discount"
+            android:layout_width="@dimen/detail_item_width_4"
+            android:layout_height="wrap_content"
+            android:text="￥28"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+            android:textSize="@dimen/detail_item_text_size" />
+
+        <TextView
+            android:id="@+id/totalprice"
+            android:layout_width="@dimen/detail_item_width_5"
+            android:layout_height="wrap_content"
+            android:text="￥28"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+            android:textSize="@dimen/detail_item_text_size" />
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="@dimen/detail_item_width_6"
+            android:layout_height="wrap_content"
+            android:text="已下单"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+            android:textSize="@dimen/detail_item_text_size" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="@dimen/detail_item_width_7"
+            android:layout_height="@dimen/detail_item_height_7"
+            android:background="@drawable/delete_click"
+            android:text="删除"
+            android:textColor="@color/white" 
+            android:textSize="@dimen/detail_item_text_size"/>
+
+    </LinearLayout>
+
+</LinearLayout>

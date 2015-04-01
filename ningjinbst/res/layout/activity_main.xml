@@ -1,0 +1,104 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tab_bg" >
+
+        <RadioGroup
+            android:id="@+id/tabgroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" 
+            >
+
+            <RadioButton
+                android:id="@+id/rbhome"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/home_icon"
+                android:gravity="center"
+                android:paddingBottom="@dimen/main_tab_padding"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="@dimen/main_tab_padding"
+                android:text="@string/home_text"
+                android:textColor="@color/tab_color" />
+
+            <RadioButton
+                android:id="@+id/rbsearch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/search_icon"
+                android:gravity="center"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="@dimen/main_tab_padding"
+                android:paddingBottom="@dimen/main_tab_padding"
+                android:text="@string/search_text"
+                android:textColor="@color/tab_color" />
+
+            <RadioButton
+                android:id="@+id/rbnew"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/new_icon"
+                android:gravity="center"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="@dimen/main_tab_padding"
+                android:paddingBottom="@dimen/main_tab_padding"
+                android:text="@string/new_text"
+                android:textColor="@color/tab_color" />
+
+            <RadioButton
+                android:id="@+id/rbmy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:drawableTop="@drawable/my_icon"
+                android:gravity="center"
+                android:paddingTop="@dimen/main_tab_padding"
+                android:paddingBottom="@dimen/main_tab_padding"
+                android:text="@string/my_text"
+                android:textColor="@color/tab_color"/>
+
+            <RadioButton
+                android:id="@+id/rbmore"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:drawableTop="@drawable/more_icon"
+                android:gravity="center"
+                android:paddingTop="@dimen/main_tab_padding"
+                android:paddingBottom="@dimen/main_tab_padding"
+                android:text="@string/more_text"
+                android:textColor="@color/tab_color" />
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,347 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/meal_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="51"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="770" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="100"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="254"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="231"
+                android:orientation="vertical" >
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="358"
+                android:orientation="vertical" >
+
+                <ListView
+                    android:id="@+id/xiadanlist"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@null" >
+
+                </ListView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="40"
+                android:gravity="right|center"
+                android:paddingRight="@dimen/meal_list_padding_right" >
+
+                <TextView
+                    android:id="@+id/zongjia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="总价￥0"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/meal_list_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="74"
+                android:gravity="right|center"
+                android:orientation="vertical"
+                android:paddingRight="@dimen/meal_list_padding_right" >
+
+                <Button
+                    android:id="@+id/xiadanbut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/xiadan_click"
+                    android:text="下单"
+                    android:textColor="@color/red" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="47"
+                android:orientation="vertical" >
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="54"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1142"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="157" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="928"
+                    android:gravity="center" >
+
+                    <HorizontalScrollView
+                        android:id="@+id/horizontalScrollView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" 
+                        android:scrollbars="none">
+
+                        <LinearLayout
+                            android:id="@+id/buttons"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" >
+
+                            <Button
+                                android:id="@+id/Button08"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/tab_height"
+                                android:layout_margin="@dimen/tab_padding"
+                                android:background="@drawable/fenlei_click_5"
+                                android:text="套餐"
+                                android:textColor="@color/tab_text_color"
+                                android:textSize="@dimen/tab_text_size" />
+
+                            <Button
+                                android:id="@+id/Button07"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/tab_height"
+                                android:layout_margin="@dimen/tab_padding"
+                                android:background="@drawable/fenlei_click_5"
+                                android:text="套餐"
+                                android:textColor="@color/tab_text_color"
+                                android:textSize="@dimen/tab_text_size" />
+
+                            <Button
+                                android:id="@+id/Button06"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/tab_height"
+                                android:layout_margin="@dimen/tab_padding"
+                                android:background="@drawable/fenlei_click_5"
+                                android:text="套餐"
+                                android:textColor="@color/tab_text_color"
+                                android:textSize="@dimen/tab_text_size" />
+
+                            <Button
+                                android:id="@+id/Button05"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/tab_height"
+                                android:layout_margin="@dimen/tab_padding"
+                                android:background="@drawable/fenlei_click_5"
+                                android:text="套餐"
+                                android:textColor="@color/tab_text_color"
+                                android:textSize="@dimen/tab_text_size" />
+
+                            <Button
+                                android:id="@+id/Button04"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/tab_height"
+                                android:layout_margin="@dimen/tab_padding"
+                                android:background="@drawable/fenlei_click_1"
+                                android:height="@dimen/tab_height"
+                                android:text="奶茶"
+                                android:textColor="@color/tab_text_color"
+                                android:textSize="@dimen/tab_text_size" />
+
+                            <Button
+                                android:id="@+id/queren"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/tab_height"
+                                android:layout_margin="@dimen/tab_padding"
+                                android:background="@drawable/fenlei_click_2"
+                                android:height="@dimen/tab_height"
+                                android:text="咖啡"
+                                android:textColor="@color/tab_text_color"
+                                android:textSize="@dimen/tab_text_size" />
+
+                            <Button
+                                android:id="@+id/fanhui"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/tab_height"
+                                android:layout_margin="@dimen/tab_padding"
+                                android:background="@drawable/fenlei_click_3"
+                                android:height="@dimen/tab_height"
+                                android:text="热饮"
+                                android:textColor="@color/tab_text_color"
+                                android:textSize="@dimen/tab_text_size" />
+
+                            <Button
+                                android:id="@+id/quxiao"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/tab_height"
+                                android:layout_margin="@dimen/tab_padding"
+                                android:background="@drawable/fenlei_click_4"
+                                android:text="冷饮"
+                                android:textColor="@color/tab_text_color"
+                                android:textSize="@dimen/tab_text_size" />
+
+                            <Button
+                                android:id="@+id/button1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/tab_height"
+                                android:layout_margin="@dimen/tab_padding"
+                                android:background="@drawable/fenlei_click_5"
+                                android:text="套餐"
+                                android:textColor="@color/tab_text_color"
+                                android:textSize="@dimen/tab_text_size" />
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="214"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="77"
+                        android:gravity="right"
+                        android:padding="3dp" >
+
+                        <Button
+                            android:id="@+id/xuanzhuo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/zhuohao_wh"
+                            android:background="@drawable/zhuohao_click"
+                            android:gravity="center"
+                            android:text="16"
+                            android:textColor="@color/zhuohao_text_color"
+                            android:textSize="@dimen/zhuohao_text_size" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="74"
+                        android:gravity="center"
+                        android:padding="5dp" >
+
+                        <ImageButton
+                            android:id="@+id/hujiao"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/tab_padding"
+                            android:adjustViewBounds="true"
+                            android:background="@null"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/renyuan" />
+
+                        <ImageButton
+                            android:id="@+id/gouwuche"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/tab_padding"
+                            android:adjustViewBounds="true"
+                            android:background="@null"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/shouye" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="566"
+                android:orientation="vertical" >
+
+                <GridView
+                    android:id="@+id/mealgrid"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:horizontalSpacing="@dimen/mealgrid_padding"
+                    android:numColumns="3"
+                    android:padding="@dimen/mealgrid_padding"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="@dimen/mealgrid_padding" >
+
+                </GridView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="47"
+                android:orientation="vertical" >
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="31" >
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#e0000000</color>
+    <color name="new_item_color">#3F5259</color>
+    <color name="new_item_detail_color">#919EA4</color>
+    <color name="title_color">#FFFFFD</color>
+    <color name="title_buttom_color">#AEDFFF</color>
+    <color name="tab_default_color">#B9B9B9</color>
+    <color name="tab_foucus_color">#5CB5EF</color>
+    <color name="my_fragment_bg">#F9F9F7</color>
+    <color name="jihui_tab_text_color">#9EB3C4</color>
+    <color name="jihui_bg_color">#D8D8DA</color>
+    <color name="jihui_child_tab_color">#5DB3EE</color>
+    <color name="huangli_item_title_color">#FF8A00</color>
+    <color name="huangli_item_detail_color">#919EA4</color>
+    <color name="sale_item_zekou_color">#FF9000</color>
+    <color name="sale_item_detail_color">#B2BDC3</color>
+    <color name="sale_item_title_color">#3F5259</color>
+    
+    <color name="accumulate_item_count_color">#B2BDC3</color>
+    
+    <color name="city_center_text_color">#5CB5EF</color>
+    <color name="city_catalog_color">#E0E0E0</color>
+    <color name="city_item_color">#3F5259</color>
+    <color name="popwindow_bg_color">#E3E3E3</color>
+    <color name="search_item_name_color">#FF9000</color>
+    <color name="search_item_other_color">#3F5259</color>
+    <color name="more_tab_bg_color">#E5E5E5</color>
+    <color name="more_item_color">#808080</color>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <Head>
+    <Command>Login</Command>
+    <TransferType>C2S</TransferType>
+    <!--可选：C2S:客户端发给服务器   S2C:服务器发给客户端-->
+    <ClientType>Android</ClientType>
+    <ClientVersion>1.0</ClientVersion>
+  </Head>
+  <Body>
+    <Password>1</Password>
+  </Body>
+</Root>
