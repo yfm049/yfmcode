@@ -1,0 +1,104 @@
+<com.iptv.view.EventLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/eventlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/playtv_list_bg"
+    android:keepScreenOn="true"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="533"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="94"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="29"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="418"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/categoryleft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/notice_title_left_but" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/categoryname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:text="20"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@drawable/categoryname_c"
+                        android:textSize="@dimen/categoryname_size" 
+                        android:focusable="true"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/categoryright"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/notice_title_right_bg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="87" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="822"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/channel_list_padding"
+            android:paddingRight="@dimen/channel_list_padding" >
+
+            <ListView
+                android:id="@+id/channellist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="#00000000"
+                android:divider="@drawable/notice_list_divider"
+                android:dividerHeight="1dp"
+                android:visibility="visible" >
+
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="55"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</com.iptv.view.EventLinearLayout>
