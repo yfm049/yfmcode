@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    
+    <string name="app_name">WorldTV</string>
+    <string name="httpurl">http://itv.ilovetv.tw:88/</string>
+    <string name="value_sw">default</string>
+    <string name="login_name">ユーザー：</string>
+    <string name="login_pass">パスワード：</string>
+    <string name="login_but">ログイン</string>
+    <string name="name_empty">ユーザー空だめ</string>
+    <string name="pass_empty">パスワードからだめ</string>
+    <string name="login_title">認証</string>
+    <string name="all">チャンネル</string>
+    <string name="collection">お気に入り</string>
+    <string name="test_title">テスト</string>
+    <string name="test_msg">テスト専用、正式ものではない</string>
+    <string name="close">クローズ</string>
+    <string name="login_msg">認証中お待ちください....</string>
+    <string name="login_suc">ログインしました</string>
+    <string name="login_fail">ログインできません</string>
+    <string name="server_fail">サーバアクス失敗</string>
+    <string name="notice_fail">予告ダウンロードできません</string>
+    <string name="forcetv_fail">デコードエラー</string>
+    <string name="shoucang_fail">そうさ失敗</string>
+    <string name="tv_msg">番組ない</string>
+    <string name="backchannel_fail">リストダウンロード失敗</string>
+    <string name="backproitem_fail">リストダウンロード失敗</string>
+    <string name="backitemnotfound">番組ない</string>
+    <string name="init_decoders">デコード初期化...</string>
+    <string name="shoucangmsg">お気に入りものを選んでください</string>
+    <string name="logofail">番組マークダウンロード失敗</string>
+    <string name="startplay">プレースタート</string>
+    <string name="playfail">プレーエラー</string>
+    <string name="huanchong">バッファ中</string>
+    <string name="huanchonged">バッファ完了</string>
+    <string name="linktimeout">リンクタイムアウト</string>
+    <string name="playback">放送中</string>
+    <string name="loading">ダウンロード中</string>
+    <string name="applicationlist">アプリケーションリストダウンロード中...</string>
+    <string name="userinfo">ユーザー情報...</string>
+    <string name="news">メッセージ</string>
+    <string name="ok">確認</string>
+    <string name="closebut">クローズ</string>
+    <string name="userinfofail">ユーザー情報エラー</string>
+    <string name="exptime">有効時間：</string>
+    <string name="loginsign">ログイン目印：</string>
+    <string name="exitmsg">アウトー確認</string>
+    <string name="uinfo">ユーザー情報</string>
+    <string name="autostart">スタートアップ</string>
+    <string name="systemcode">ハードウェアデコード</string>
+    <string name="softcode">ソフトウェアデコード</string>
+    <string name="allapp">総アプリケーション</string>
+
+</resources>
