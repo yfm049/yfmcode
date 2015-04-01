@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logohigh"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="基本信息设置"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+     android:padding="10dp" >
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="left|center" >
+
+         <TextView
+             android:id="@+id/TextView02"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="昵称："
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+         <EditText
+             android:id="@+id/clientname"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:hint="昵称" />
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="left|center" >
+
+         <TextView
+             android:id="@+id/starttime"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="号码："
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+         <EditText
+             android:id="@+id/count"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:hint="手机号码"
+             android:inputType="phone" />
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp" >
+
+         <Button
+             android:id="@+id/butnet"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="保存" />
+     </LinearLayout>
+ </LinearLayout>
+
+</LinearLayout>

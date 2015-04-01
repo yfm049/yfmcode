@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logohigh"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数据上传设置"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+     android:padding="10dp" >
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="left|center" >
+
+         <TextView
+             android:id="@+id/longitude"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="上传时间："
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+         <EditText
+             android:id="@+id/uploadtime"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:hint="大于1的数 单位分钟"
+             android:inputType="numberDecimal" />
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" >
+
+         <TextView
+             android:id="@+id/stype"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="接收邮箱："
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+         <EditText
+             android:id="@+id/email"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:ems="10"
+             android:hint="123@123.com"
+             android:inputType="textEmailAddress" />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+         <TextView
+             android:id="@+id/sbody"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="接收手机："
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+         <EditText
+             android:id="@+id/phonenum"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:ems="10"
+             android:hint="手机号码"
+             android:inputType="phone" >
+
+             <requestFocus />
+         </EditText>
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp" >
+
+         <Button
+             android:id="@+id/butsms"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="短信发送" />
+
+         <Button
+             android:id="@+id/butnet"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="网络发送" />
+
+     </LinearLayout>
+
+ </LinearLayout>
+
+</LinearLayout>
