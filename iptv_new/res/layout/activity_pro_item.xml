@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/backplay_right_item_left"
+        android:gravity="right|center" >
+
+        <TextView
+            android:id="@+id/ptime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5点38分"
+            android:textColor="@color/baise" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/backplay_right_item_right"
+        android:gravity="left|center" >
+
+        <ImageView
+            android:id="@+id/playicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/playicon"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/pname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="激情鹏鹏"
+            android:textColor="@color/baise" />
+
+    </LinearLayout>
+
+</LinearLayout>

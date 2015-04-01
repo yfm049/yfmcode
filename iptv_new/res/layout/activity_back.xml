@@ -1,0 +1,118 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backbackground"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@drawable/playback_left_list"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/lefttitle"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/ptitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="频道回看 REC"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/baise" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <ListView
+                    android:id="@+id/playpdlist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cacheColorHint="#00000000"
+                    android:choiceMode="singleChoice"
+                    android:divider="@color/baise"
+                    android:dividerHeight="1dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true" >
+
+                </ListView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/playback_left_list"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RadioGroup
+                    android:id="@+id/timegroup"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                    <include layout="@layout/radioitem"/>
+                    <include layout="@layout/radioitem"/>
+                    <include layout="@layout/radioitem"/>
+                    <include layout="@layout/radioitem"/>
+                    <include layout="@layout/radioitem"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ListView
+                    android:id="@+id/noticelist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@color/baise"
+                    android:dividerHeight="1dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true" >
+
+                </ListView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/buttom" >
+
+        <TextView
+            android:id="@+id/riqiview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前时间:2012-10-01"
+            android:textColor="@color/baise" />
+
+    </LinearLayout>
+
+</LinearLayout>

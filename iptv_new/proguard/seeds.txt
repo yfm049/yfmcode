@@ -1,0 +1,255 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+com.forcetech.android.ForceTV
+com.forcetech.android.ForceTV: int start(int,int)
+com.forcetech.android.ForceTV: int stop()
+com.iptv.App.IptvApp
+com.iptv.App.IptvApp: IptvApp()
+com.iptv.news.R$color: int baise
+com.iptv.news.R$color: int heise
+com.iptv.news.R$dimen: int jianju
+com.iptv.news.R$dimen: int timesize
+com.iptv.news.R$drawable: int apk
+com.iptv.news.R$drawable: int apkclick
+com.iptv.news.R$drawable: int backbackground
+com.iptv.news.R$drawable: int backplay_right_item_left
+com.iptv.news.R$drawable: int backplay_right_item_right
+com.iptv.news.R$drawable: int bg
+com.iptv.news.R$drawable: int buttom
+com.iptv.news.R$drawable: int content
+com.iptv.news.R$drawable: int dia_msg_bg
+com.iptv.news.R$drawable: int divider
+com.iptv.news.R$drawable: int home_con
+com.iptv.news.R$drawable: int home_title
+com.iptv.news.R$drawable: int hongxin
+com.iptv.news.R$drawable: int hongxin_select
+com.iptv.news.R$drawable: int ic_launcher
+com.iptv.news.R$drawable: int ic_logo
+com.iptv.news.R$drawable: int info
+com.iptv.news.R$drawable: int info_c
+com.iptv.news.R$drawable: int infobclick
+com.iptv.news.R$drawable: int item
+com.iptv.news.R$drawable: int lefttitle
+com.iptv.news.R$drawable: int live
+com.iptv.news.R$drawable: int live_c
+com.iptv.news.R$drawable: int live_channel_list_bg
+com.iptv.news.R$drawable: int livec_favourite1
+com.iptv.news.R$drawable: int liveclick
+com.iptv.news.R$drawable: int market_c
+com.iptv.news.R$drawable: int nav
+com.iptv.news.R$drawable: int next
+com.iptv.news.R$drawable: int next_c
+com.iptv.news.R$drawable: int nextclick
+com.iptv.news.R$drawable: int noselect
+com.iptv.news.R$drawable: int noselectitem
+com.iptv.news.R$drawable: int noselectlr
+com.iptv.news.R$drawable: int pause
+com.iptv.news.R$drawable: int pauseclick
+com.iptv.news.R$drawable: int pauser_c
+com.iptv.news.R$drawable: int play
+com.iptv.news.R$drawable: int play_c
+com.iptv.news.R$drawable: int play_left_item
+com.iptv.news.R$drawable: int play_left_title
+com.iptv.news.R$drawable: int play_list_bg
+com.iptv.news.R$drawable: int play_right_item_left
+com.iptv.news.R$drawable: int play_right_item_right
+com.iptv.news.R$drawable: int playback
+com.iptv.news.R$drawable: int playback_c
+com.iptv.news.R$drawable: int playback_left_item
+com.iptv.news.R$drawable: int playback_left_list
+com.iptv.news.R$drawable: int playbackclick
+com.iptv.news.R$drawable: int playbg
+com.iptv.news.R$drawable: int playbg_n
+com.iptv.news.R$drawable: int playbg_s
+com.iptv.news.R$drawable: int playclick
+com.iptv.news.R$drawable: int playicon
+com.iptv.news.R$drawable: int playview
+com.iptv.news.R$drawable: int pre
+com.iptv.news.R$drawable: int pre_c
+com.iptv.news.R$drawable: int preclick
+com.iptv.news.R$drawable: int programnoselect
+com.iptv.news.R$drawable: int programselect
+com.iptv.news.R$drawable: int radio_tab_bg
+com.iptv.news.R$drawable: int radio_tab_bg_check
+com.iptv.news.R$drawable: int riqibg
+com.iptv.news.R$drawable: int riqiselect_c
+com.iptv.news.R$drawable: int ritem
+com.iptv.news.R$drawable: int rleftbg
+com.iptv.news.R$drawable: int rrightbg
+com.iptv.news.R$drawable: int season128
+com.iptv.news.R$drawable: int seekbar_beg
+com.iptv.news.R$drawable: int seekbar_buff
+com.iptv.news.R$drawable: int seekbar_slider
+com.iptv.news.R$drawable: int seekbar_style
+com.iptv.news.R$drawable: int seekbar_thum
+com.iptv.news.R$drawable: int seekbar_thum_foc
+com.iptv.news.R$drawable: int seekbar_thum_nor
+com.iptv.news.R$drawable: int select
+com.iptv.news.R$drawable: int selectitem
+com.iptv.news.R$drawable: int selectlr
+com.iptv.news.R$drawable: int setup
+com.iptv.news.R$drawable: int setup_c
+com.iptv.news.R$drawable: int setupclick
+com.iptv.news.R$drawable: int tanchu_btn_no
+com.iptv.news.R$drawable: int tanchu_btn_point
+com.iptv.news.R$drawable: int timebg
+com.iptv.news.R$drawable: int title
+com.iptv.news.R$drawable: int tubiao
+com.iptv.news.R$drawable: int weather
+com.iptv.news.R$drawable: int weather_icon
+com.iptv.news.R$drawable: int weatherbg
+com.iptv.news.R$drawable: int web
+com.iptv.news.R$drawable: int webclick
+com.iptv.news.R$drawable: int webmovie_c
+com.iptv.news.R$id: int LinearLayout1
+com.iptv.news.R$id: int LinearLayout2
+com.iptv.news.R$id: int RelativeLayout1
+com.iptv.news.R$id: int TextView01
+com.iptv.news.R$id: int action_settings
+com.iptv.news.R$id: int appgird
+com.iptv.news.R$id: int currtime
+com.iptv.news.R$id: int dcode
+com.iptv.news.R$id: int fav
+com.iptv.news.R$id: int fname
+com.iptv.news.R$id: int icon
+com.iptv.news.R$id: int info
+com.iptv.news.R$id: int livetv
+com.iptv.news.R$id: int localfile
+com.iptv.news.R$id: int loginbut
+com.iptv.news.R$id: int mac
+com.iptv.news.R$id: int market
+com.iptv.news.R$id: int name
+com.iptv.news.R$id: int nextbut
+com.iptv.news.R$id: int noticelist
+com.iptv.news.R$id: int noticename
+com.iptv.news.R$id: int noticerq
+com.iptv.news.R$id: int noticetime
+com.iptv.news.R$id: int palyview
+com.iptv.news.R$id: int pass
+com.iptv.news.R$id: int pdlogo
+com.iptv.news.R$id: int playback
+com.iptv.news.R$id: int playbut
+com.iptv.news.R$id: int playicon
+com.iptv.news.R$id: int playlist
+com.iptv.news.R$id: int playmenu
+com.iptv.news.R$id: int playpdlist
+com.iptv.news.R$id: int playseek
+com.iptv.news.R$id: int playview
+com.iptv.news.R$id: int pname
+com.iptv.news.R$id: int prebut
+com.iptv.news.R$id: int progress
+com.iptv.news.R$id: int progressBar1
+com.iptv.news.R$id: int ptime
+com.iptv.news.R$id: int ptitle
+com.iptv.news.R$id: int qhfenlei
+com.iptv.news.R$id: int riqiview
+com.iptv.news.R$id: int surface
+com.iptv.news.R$id: int systemsetup
+com.iptv.news.R$id: int textView4
+com.iptv.news.R$id: int textView5
+com.iptv.news.R$id: int timegroup
+com.iptv.news.R$id: int title
+com.iptv.news.R$id: int titlelayout
+com.iptv.news.R$id: int totaltime
+com.iptv.news.R$id: int tvitem
+com.iptv.news.R$id: int webmovie
+com.iptv.news.R$id: int xuhao
+com.iptv.news.R$layout: int actitivy_play_notice
+com.iptv.news.R$layout: int activity_allapp
+com.iptv.news.R$layout: int activity_allapp_item
+com.iptv.news.R$layout: int activity_back
+com.iptv.news.R$layout: int activity_backplay
+com.iptv.news.R$layout: int activity_fenleiplay
+com.iptv.news.R$layout: int activity_home
+com.iptv.news.R$layout: int activity_login
+com.iptv.news.R$layout: int activity_main
+com.iptv.news.R$layout: int activity_pindao_item
+com.iptv.news.R$layout: int activity_play
+com.iptv.news.R$layout: int activity_play_lisg
+com.iptv.news.R$layout: int activity_play_lisg_item
+com.iptv.news.R$layout: int activity_pro_item
+com.iptv.news.R$layout: int radioitem
+com.iptv.news.R$menu: int main
+com.iptv.news.R$string: int action_settings
+com.iptv.news.R$string: int app_name
+com.iptv.news.R$string: int hello_world
+com.iptv.news.R$style: int AppBaseTheme
+com.iptv.news.R$style: int AppTheme
+com.iptv.pro.AllAppActivity
+com.iptv.pro.AllAppActivity: AllAppActivity()
+com.iptv.pro.BackActivity
+com.iptv.pro.BackActivity: BackActivity()
+com.iptv.pro.BackPlayActivity
+com.iptv.pro.BackPlayActivity: BackPlayActivity()
+com.iptv.pro.FenLeiPlayActivity
+com.iptv.pro.FenLeiPlayActivity: FenLeiPlayActivity()
+com.iptv.pro.HomeActivity
+com.iptv.pro.HomeActivity: HomeActivity()
+com.iptv.pro.LoginActivity
+com.iptv.pro.LoginActivity: LoginActivity()
+com.iptv.pro.PlayActivity
+com.iptv.pro.PlayActivity: PlayActivity()
+com.iptv.pro.UpdateService
+com.iptv.pro.UpdateService: UpdateService()
