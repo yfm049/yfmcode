@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="notice_time_size">65sp</dimen>
+    <dimen name="notice_date_size">26sp</dimen>
+    <dimen name="channelcode_size">40sp</dimen>
+    <dimen name="channelinfo_top">40dp</dimen>
+    <dimen name="channelinfo_right">40dp</dimen>
+    <dimen name="channelname_size">40sp</dimen>
+    <dimen name="progressBar1_size">50dp</dimen>
+    <dimen name="channelstatus_size">40sp</dimen>
+    <dimen name="categoryname_size">24sp</dimen>
+    <dimen name="notice_pd_item_textsize">24sp</dimen>
+    <dimen name="back_pd_item_textsize">24sp</dimen>
+    <dimen name="back_jm_item_textsize">24sp</dimen>
+    <dimen name="pdcount_size">20sp</dimen>
+    <dimen name="currdate_size">16sp</dimen>
+    <dimen name="rqselect_size">20sp</dimen>
+
+
+</resources>
