@@ -1,0 +1,220 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+com.forcetech.android.ForceTV
+com.forcetech.android.ForceTV: int start(int,int)
+com.forcetech.android.ForceTV: int stop()
+com.iptv.App.IptvApp
+com.iptv.App.IptvApp: IptvApp()
+com.iptv.pro.AllAppActivity
+com.iptv.pro.AllAppActivity: AllAppActivity()
+com.iptv.pro.BackActivity
+com.iptv.pro.BackActivity: BackActivity()
+com.iptv.pro.BackPlayActivity
+com.iptv.pro.BackPlayActivity: BackPlayActivity()
+com.iptv.pro.HomeActivity
+com.iptv.pro.HomeActivity: HomeActivity()
+com.iptv.pro.LoginActivity
+com.iptv.pro.LoginActivity: LoginActivity()
+com.iptv.pro.PlayActivity
+com.iptv.pro.PlayActivity: PlayActivity()
+com.iptv.pro.UpdateService
+com.iptv.pro.UpdateService: UpdateService()
+com.iptv.season.R$color: int baise
+com.iptv.season.R$color: int heise
+com.iptv.season.R$dimen: int activity_horizontal_margin
+com.iptv.season.R$dimen: int activity_vertical_margin
+com.iptv.season.R$drawable: int apk
+com.iptv.season.R$drawable: int apkclick
+com.iptv.season.R$drawable: int backbackground
+com.iptv.season.R$drawable: int bg
+com.iptv.season.R$drawable: int content
+com.iptv.season.R$drawable: int date_saturday_f
+com.iptv.season.R$drawable: int date_tuesday_s
+com.iptv.season.R$drawable: int date_wednesday_f
+com.iptv.season.R$drawable: int dia_msg_bg
+com.iptv.season.R$drawable: int home_con
+com.iptv.season.R$drawable: int home_title
+com.iptv.season.R$drawable: int ic_launcher
+com.iptv.season.R$drawable: int ic_logo
+com.iptv.season.R$drawable: int info
+com.iptv.season.R$drawable: int info_c
+com.iptv.season.R$drawable: int infobclick
+com.iptv.season.R$drawable: int item
+com.iptv.season.R$drawable: int live
+com.iptv.season.R$drawable: int live_c
+com.iptv.season.R$drawable: int live_channel_list_bg
+com.iptv.season.R$drawable: int livec_favourite1
+com.iptv.season.R$drawable: int liveclick
+com.iptv.season.R$drawable: int local
+com.iptv.season.R$drawable: int local_c
+com.iptv.season.R$drawable: int localclick
+com.iptv.season.R$drawable: int market_c
+com.iptv.season.R$drawable: int nav
+com.iptv.season.R$drawable: int next
+com.iptv.season.R$drawable: int next_c
+com.iptv.season.R$drawable: int nextclick
+com.iptv.season.R$drawable: int noselect
+com.iptv.season.R$drawable: int noselectitem
+com.iptv.season.R$drawable: int noselectlr
+com.iptv.season.R$drawable: int pause
+com.iptv.season.R$drawable: int pauseclick
+com.iptv.season.R$drawable: int pauser_c
+com.iptv.season.R$drawable: int play
+com.iptv.season.R$drawable: int play_c
+com.iptv.season.R$drawable: int playback
+com.iptv.season.R$drawable: int playback_c
+com.iptv.season.R$drawable: int playbackclick
+com.iptv.season.R$drawable: int playclick
+com.iptv.season.R$drawable: int pre
+com.iptv.season.R$drawable: int pre_c
+com.iptv.season.R$drawable: int preclick
+com.iptv.season.R$drawable: int programnoselect
+com.iptv.season.R$drawable: int programselect
+com.iptv.season.R$drawable: int riqiselect_c
+com.iptv.season.R$drawable: int season128
+com.iptv.season.R$drawable: int seekbar_beg
+com.iptv.season.R$drawable: int seekbar_buff
+com.iptv.season.R$drawable: int seekbar_slider
+com.iptv.season.R$drawable: int seekbar_style
+com.iptv.season.R$drawable: int seekbar_thum
+com.iptv.season.R$drawable: int seekbar_thum_foc
+com.iptv.season.R$drawable: int seekbar_thum_nor
+com.iptv.season.R$drawable: int select
+com.iptv.season.R$drawable: int selectitem
+com.iptv.season.R$drawable: int selectlr
+com.iptv.season.R$drawable: int setup
+com.iptv.season.R$drawable: int setup_c
+com.iptv.season.R$drawable: int setupclick
+com.iptv.season.R$drawable: int tanchu_btn_no
+com.iptv.season.R$drawable: int tanchu_btn_point
+com.iptv.season.R$drawable: int title
+com.iptv.season.R$drawable: int tubiao
+com.iptv.season.R$drawable: int tv_back
+com.iptv.season.R$drawable: int user_info_spinner_n
+com.iptv.season.R$drawable: int web
+com.iptv.season.R$drawable: int webclick
+com.iptv.season.R$drawable: int webmovie_c
+com.iptv.season.R$id: int LinearLayout1
+com.iptv.season.R$id: int LinearLayout2
+com.iptv.season.R$id: int RelativeLayout1
+com.iptv.season.R$id: int TextView01
+com.iptv.season.R$id: int action_settings
+com.iptv.season.R$id: int appgird
+com.iptv.season.R$id: int appname
+com.iptv.season.R$id: int currtime
+com.iptv.season.R$id: int data
+com.iptv.season.R$id: int fav
+com.iptv.season.R$id: int fname
+com.iptv.season.R$id: int icon
+com.iptv.season.R$id: int info
+com.iptv.season.R$id: int jmlist
+com.iptv.season.R$id: int livetv
+com.iptv.season.R$id: int localfile
+com.iptv.season.R$id: int loginbut
+com.iptv.season.R$id: int mac
+com.iptv.season.R$id: int market
+com.iptv.season.R$id: int name
+com.iptv.season.R$id: int nextbut
+com.iptv.season.R$id: int palyview
+com.iptv.season.R$id: int pass
+com.iptv.season.R$id: int pdlist
+com.iptv.season.R$id: int pdlogo
+com.iptv.season.R$id: int playback
+com.iptv.season.R$id: int playbut
+com.iptv.season.R$id: int playlist
+com.iptv.season.R$id: int playmenu
+com.iptv.season.R$id: int playseek
+com.iptv.season.R$id: int pname
+com.iptv.season.R$id: int prebut
+com.iptv.season.R$id: int progress
+com.iptv.season.R$id: int progressBar1
+com.iptv.season.R$id: int ptime
+com.iptv.season.R$id: int systemsetup
+com.iptv.season.R$id: int timegroup
+com.iptv.season.R$id: int title
+com.iptv.season.R$id: int titlelayout
+com.iptv.season.R$id: int totaltime
+com.iptv.season.R$id: int tvitem
+com.iptv.season.R$id: int webmovie
+com.iptv.season.R$id: int xuhao
+com.iptv.season.R$layout: int activity_allapp
+com.iptv.season.R$layout: int activity_allapp_item
+com.iptv.season.R$layout: int activity_back
+com.iptv.season.R$layout: int activity_backplay
+com.iptv.season.R$layout: int activity_home
+com.iptv.season.R$layout: int activity_login
+com.iptv.season.R$layout: int activity_main
+com.iptv.season.R$layout: int activity_pindao_item
+com.iptv.season.R$layout: int activity_play
+com.iptv.season.R$layout: int activity_play_lisg
+com.iptv.season.R$layout: int activity_play_lisg_item
+com.iptv.season.R$layout: int activity_pro_item
+com.iptv.season.R$layout: int radioitem
+com.iptv.season.R$menu: int main
+com.iptv.season.R$string: int action_settings
+com.iptv.season.R$string: int app_name
+com.iptv.season.R$string: int hello_world
+com.iptv.season.R$style: int AppBaseTheme
+com.iptv.season.R$style: int AppTheme
