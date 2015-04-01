@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">每日一图</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <color name="baise">#FFFFFF</color>
+    <color name="juhong">#F5ABAA</color>
+
+</resources>
