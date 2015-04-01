@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pro.ltax"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:persistent="true" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        android:name=".App">
+        <activity
+            android:name="com.pro.ltax.MainActivity"
+            android:label="@string/app_name" 
+            android:excludeFromRecents="true"
+            android:theme="@android:style/Theme.Light.NoTitleBar" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <receiver android:name=".LtaxBroadcastReceiver" android:enabled="true" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.PACKAGE_RESTARTED" />
+            </intent-filter>
+            <intent-filter android:priority="1000" >
+                <action android:name="com.pro.ltax" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".TingXingService"></service>
+        <activity android:name=".TingXingDialog" android:excludeFromRecents="true" android:launchMode="singleTop" android:theme="@android:style/Theme.Dialog" android:screenOrientation="portrait"></activity>
+        <activity android:name=".ShenBaoActivity" android:theme="@android:style/Theme.Light.NoTitleBar" android:screenOrientation="portrait"></activity>
+        <activity android:name=".RiLiActivity" android:theme="@android:style/Theme.Light.NoTitleBar" android:screenOrientation="portrait"></activity>
+        <activity android:name=".FunActivity" android:theme="@android:style/Theme.Light.NoTitleBar" android:screenOrientation="portrait"></activity>
+        <activity android:name=".GonggaoActivity" android:theme="@android:style/Theme.Light.NoTitleBar" android:screenOrientation="portrait"></activity>
+        <activity android:name=".ListDataActivity" android:theme="@android:style/Theme.Light.NoTitleBar" android:screenOrientation="portrait"></activity>
+        <activity android:name=".FlFgActivity" android:windowSoftInputMode="stateHidden" android:theme="@android:style/Theme.Light.NoTitleBar" android:screenOrientation="portrait"></activity>
+        <activity android:name=".ContentActivity" android:theme="@android:style/Theme.Light.NoTitleBar" android:screenOrientation="portrait"></activity>
+		<activity android:name=".FlFgListActivity" android:theme="@android:style/Theme.Light.NoTitleBar" android:screenOrientation="portrait"></activity>
+		<activity android:name=".FlfgContentActivity" android:theme="@android:style/Theme.Light.NoTitleBar" android:screenOrientation="portrait"></activity>
+		
+    </application>
+
+</manifest>
