@@ -1,0 +1,310 @@
+@charset "utf-8";
+/*
+免费模板网 版权所有
+QQ：215288671
+MAIL：215288671@qq.com
+*/
+* {
+	margin:0;
+	padding:0;
+}
+body,td,th {
+	font-size: 12px;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+a {
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	color: #333;
+	text-decoration: none;
+}
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+a:active {
+	color: #000;
+	text-decoration: none;
+}
+img {
+	border:none;
+}
+table {
+	border-collapse:collapse;
+}
+ul {
+	list-style:none;
+}
+.Cal {
+	clear:both;
+}
+#LoginLogo {
+	width:256px;
+	margin:0 auto;
+}
+#LoginTop {
+	width:286px;
+	margin:0 auto;
+	background-image:url(../images/NavBg.jpg);
+	background-position:0 -38px;
+	height:37px;
+}
+#LoginLogo {
+	height:86px;
+	background-image:url(../images/images.jpg);
+	background-position:0 -100px;
+	margin-top:30px;
+}
+#LoginTop {
+	height:37px;
+	margin-top:15px;
+}
+.BarLeft {
+	width:8px;
+	height:37px;
+	background-image:url(../images/NavBg.jpg);
+	float:left;
+}
+.BarRight {
+	width:8px;
+	height:37px;
+	background-image:url(../images/NavBg.jpg);
+	background-position:0 -76px;
+	float:left;
+}
+#LoginTopText {
+	width:270px;
+	float:left;
+	color:#FFF;
+	font-size:16px;
+	line-height:37px;
+	font-weight:bold;
+	text-indent:24px;
+}
+#LoginBox {
+	width:284px;
+	border:1px solid #CCC;
+	border-top:none;
+	margin:0 auto;
+	height:180px;
+}
+.FontWeight {
+	font-size:16px;
+	font-weight:bold;
+}
+.Font999 {
+	color:#999;
+}
+.Input {
+	border:1px solid #CCC;
+	height:22px;
+	font-size:14px;
+	line-height:22px;
+}
+.TextArea {
+	border:1px solid #CCC;
+	font-size:14px;
+	line-height:22px;
+}
+.Button {
+	height:35px;
+	width:86px;
+	background-image:url(../images/images.jpg);
+	background-position:0 -190px;
+	border:1px solid #CCC;
+	font-size:14px;
+	line-height:35px;
+	font-weight:bold;
+	color:#000000;
+}
+.Buttons {
+	border:1px solid #CCC;
+	color:#FFF;
+	background-color:#4AB902;
+}
+#Logo,#Nav,#Content,#Bottom {
+	width:950px;
+	margin:0 auto;
+}
+#Logo {
+	margin-top:10px;
+	padding:10px;
+	font-size: 18px;
+}
+#Nav,#ContentLeftTop,#ContentRightTop {
+	background-image:url(../images/NavBg.jpg);
+	background-position:0 -38px;
+	height:37px;
+}
+#NavContent {
+	width:934px;
+	float:left;
+	line-height:37px;
+}
+#NavContent ul {
+	margin-left:15px;
+}
+#NavContent li {
+	float:left;
+}
+#NavContent li a {
+	width:100px;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	display:block;
+	height:37px;
+	color:#FFF;
+}
+#NavContent ul ul {
+	_margin-left:-50px;  /*IE6 HACK*/
+	position:absolute;
+	background-color:#51C605;
+	visibility:hidden;
+}
+#NavContent li li {
+	float:none;
+	width:140px;
+}
+#NavContent li li a {
+	width:140px;
+}
+#NavContent a:hover {
+	background-color:#51C605;
+	background-image:url(../images/NavBg.jpg);
+	background-position:0 -38px;
+}
+#NavContent ul li:hover ul {
+	visibility:visible;
+}
+#NavContent ul a:hover ul {
+	visibility:visible;
+}
+#Content {
+	margin-top:10px;
+}
+#ContentLeft {
+	width:200px;
+	float:left;
+}
+#ContentRight {
+	width:735px;
+	float:right;
+}
+#ContentLeftTop {
+	width:200px;
+}
+#ContentLeftTopText {
+	width:184px;
+	float:left;
+	line-height:37px;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFF;
+	text-indent:12px;
+}
+#ContentLeftTopText a {
+	font-size:14px;
+	font-weight:bold;
+	color:#FFF;
+}
+#ContentLeftBox {
+	width:196px;
+	border:1px solid #CCC;
+	border-top:none;
+	margin:0 auto;
+}
+#ContentLeftBox ul {
+	margin:10px;
+	line-height:20px;
+}
+#ContentRightTop {
+	width:735px;
+}
+#ContentRightTopText {
+	width:719px;
+	float:left;
+	line-height:37px;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFF;
+	text-indent:12px;
+}
+#ContentRightBox {
+	width:671px;
+	border:1px solid #CCC;
+	border-top:none;
+	margin:0 auto;
+	padding:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#PageInfo {
+	width:70%;
+	margin:0 auto;
+	margin:10px;
+	border:1px solid #4AB902;
+	text-align:center;
+	line-height:22px;
+	font-size:14px;
+	color:#4AB902;
+	font-weight:bold;
+}
+.Td1 {
+	background-color:#4AB902;
+	color:#FFF;
+	font-size:14px;
+	font-weight:bold;
+}
+.Table1 {
+	font-size:14px;
+}
+.Table1 a {
+	font-size:14px;
+}
+.Table1 a:visited,.Table1 a:hover,.Table1 a:active {
+	font-size:14px;
+}
+.Table1 td {
+	text-indent:10px;
+}
+#MenuUl {
+	margin:3px;
+}
+#MenuUl li {
+	float:left;
+	margin-right:10px;
+	background-color:#4AB902;
+}
+#MenuUl li a {
+	height:22px;
+	display:block;
+	color:#FFF;
+	text-align:center;
+	line-height:22px;
+}
+.MakeNews {
+	width:300px;
+	margin:20px;
+	padding:5px;
+	border:1px solid #4AB902;
+}
+
+#Bottom {
+	margin-top:10px;
+	border-top:1px solid #CCC;
+	text-align:center;
+	color:#CCC;
+	line-height:25px;
+}
+#Bottom a {
+	color:#CCC;
+}
