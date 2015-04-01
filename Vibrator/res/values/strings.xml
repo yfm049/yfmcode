@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vibrator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <color name="fontcolor">#FFFFFF</color>
+    <color name="titlecolor">#0E1A32</color>
+
+</resources>
