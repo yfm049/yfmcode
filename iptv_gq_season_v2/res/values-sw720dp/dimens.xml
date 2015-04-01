@@ -1,0 +1,24 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw720dp devices (e.g. 7" tablets) here.
+    -->
+    <dimen name="loginitem_padding">6dp</dimen>
+    <dimen name="homeitem_padding">32dp</dimen>
+    <dimen name="back_left_title_height">49dp</dimen>
+    <dimen name="back_right_title_height">49dp</dimen>
+    <dimen name="back_left_padding">1dp</dimen>
+    <dimen name="back_item_padding">8dp</dimen>
+    <dimen name="back_title_padding">15dp</dimen>
+    <dimen name="play_list_width">321dp</dimen>
+    <dimen name="play_notice_width">950dp</dimen>
+    <dimen name="item_tubiao_height">35dp</dimen>
+    <dimen name="item_text_size">26sp</dimen>
+    <dimen name="play_item_padding">8dp</dimen>
+    <dimen name="play_list_height">634dp</dimen>
+    
+    <dimen name="notice_item_size">26sp</dimen>
+    <dimen name="title_size">28sp</dimen>
+    <dimen name="code_size">64sp</dimen>
+</resources>

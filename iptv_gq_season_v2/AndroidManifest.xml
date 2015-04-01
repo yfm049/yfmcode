@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ptvplus"
+    android:versionCode="11"
+    android:versionName="2.9"
+    android:installLocation="auto" >
+
+    <uses-sdk android:minSdkVersion="11"  android:targetSdkVersion="14" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> 
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>  
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <application
+        android:name="com.iptv.App.IptvApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.iptv.pro.LoginActivity"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.iptv.pro.BackPlayActivity" android:label="@string/app_name" android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden|screenSize" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+        <activity android:name="com.iptv.pro.BackActivity" android:label="@string/app_name" android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden|screenSize" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+        <activity android:name="com.iptv.pro.HomeActivity" android:label="@string/app_name" android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden|screenSize" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:launchMode="singleTop"></activity>
+        <service android:name="com.iptv.pro.UpdateService"></service>
+        <activity android:name="com.iptv.pro.FenleiActivity" android:label="@string/app_name" android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden|screenSize" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+        <activity android:name="com.iptv.pro.PlayActivity" android:label="@string/app_name" android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden|screenSize" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+       	<activity android:name="com.iptv.pro.AllAppActivity" android:label="@string/app_name" android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden|screenSize" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+        <receiver android:name="com.iptv.pro.BootReceiver" android:label="开机启动">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
