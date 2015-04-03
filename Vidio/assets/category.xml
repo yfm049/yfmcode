@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<category name="推荐">
+  <file>
+    <name>香港</name>
+    <url>http://115.29.168.51:88/vod/main.xml</url>
+  </file>
+  <file>
+    <name>台湾</name>
+    <url>http://115.29.168.51:88/vod/main.xml</url>
+  </file>
+  <file>
+    <name>电影</name>
+    <url>http://115.29.168.51:88/vod/main.xml</url>
+  </file>
+  <file>
+    <name>电视剧</name>
+    <url>http://115.29.168.51:88/vod/main.xml</url>
+  </file>
+  <file>
+    <name>大陆</name>
+    <url>http://115.29.168.51:88/vod/main.xml</url>
+  </file>
+  <file>
+    <name>最新</name>
+    <url>http://115.29.168.51:88/vod/main.xml</url>
+  </file>
+</category>

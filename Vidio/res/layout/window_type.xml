@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/typelist"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:listSelector="@drawable/item_select" >
+
+    </ListView>
+
+</LinearLayout>
