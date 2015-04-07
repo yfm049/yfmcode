@@ -42,6 +42,7 @@ import android.widget.PopupWindow;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.forcetech.android.ForceTV;
 import com.iptv.adapter.NoticeAdapter;
 import com.iptv.adapter.TvinfoAdapter;
 import com.iptv.pojo.LiveTV;
@@ -89,7 +90,7 @@ public class PlayActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON, WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-		
+		ForceTV.initForceClient();
 		super.setContentView(R.layout.activity_play);
 		code=(TextView)this.findViewById(R.id.code);
 		
@@ -596,4 +597,10 @@ public class PlayActivity extends Activity {
 		
 	}
 
+	@Override
+	protected void onDestroy() {
+		// TODO Auto-generated method stub
+		super.onDestroy();
+		ForceTV.stop();
+	}
 }

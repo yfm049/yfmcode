@@ -1,12 +1,10 @@
 package com.iptv.App;
 
-import android.app.Application;
-
-import com.forcetech.android.ForceTV;
 import com.iptv.utils.SqliteUtils;
 import com.iptv.utils.Utils;
+import com.pro.vidio.VideoApplication;
 
-public class IptvApp extends Application {
+public class IptvApp extends VideoApplication {
 
 	
 	@Override
@@ -14,6 +12,6 @@ public class IptvApp extends Application {
 		// TODO Auto-generated method stub
 		super.onCreate();
 		SqliteUtils.version=Utils.getversioncode(this);
-		ForceTV.initForceClient();
+		
 	}
 }

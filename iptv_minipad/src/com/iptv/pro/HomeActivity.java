@@ -42,6 +42,7 @@ import com.iptv.thread.DownloadThreadListener;
 import com.iptv.thread.UserInfoThread;
 import com.iptv.utils.HttpUtils;
 import com.iptv.utils.Utils;
+import com.pro.vidio.MainActivity_;
 
 public class HomeActivity extends Activity {
 
@@ -137,7 +138,9 @@ public class HomeActivity extends Activity {
 				HomeActivity.this.startActivity(intent);
 			}
 			if (but.getId() == R.id.point) {
-				openCLD("apphi.cv_tv_tvdroid");
+				Intent intent = new Intent(HomeActivity.this,MainActivity_.class);
+				HomeActivity.this.startActivity(intent);
+				//openCLD("apphi.cv_tv_tvdroid");
 			}
 			if (but.getId() == R.id.market) {
 				Openhome();

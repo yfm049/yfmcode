@@ -31,6 +31,7 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.forcetech.android.ForceTV;
 import com.iptv.season.R;
 import com.iptv.thread.BackPlayThread;
 import com.iptv.thread.DisplayThread;
@@ -71,7 +72,7 @@ public class BackPlayActivity extends Activity {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON, WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		super.setContentView(R.layout.activity_backplay);
-		
+		ForceTV.initForceClient();
 		Bundle bundle=this.getIntent().getExtras();
 		if(bundle!=null){
 			if(bundle.containsKey("prg")){
@@ -365,6 +366,12 @@ public class BackPlayActivity extends Activity {
 		if(tupdate!=null){
 			tupdate.setIsrun(false);
 		}
+	}
+	@Override
+	protected void onDestroy() {
+		// TODO Auto-generated method stub
+		super.onDestroy();
+		ForceTV.stop();
 	}
 
 }
