@@ -138,7 +138,7 @@ public class HomeActivity extends Activity {
 				HomeActivity.this.startActivity(intent);
 			}
 			if (but.getId() == R.id.point) {
-				Intent intent = new Intent(HomeActivity.this,MainActivity_.class);
+				Intent intent = new Intent(HomeActivity.this,com.pro.vidio.MainActivity_.class);
 				HomeActivity.this.startActivity(intent);
 				//openCLD("apphi.cv_tv_tvdroid");
 			}
