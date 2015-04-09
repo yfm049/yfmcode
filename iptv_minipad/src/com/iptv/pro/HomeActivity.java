@@ -183,7 +183,7 @@ public class HomeActivity extends Activity {
 
 	private void showinfo(String message) {
 		Builder builder = new Builder(this, AlertDialog.THEME_HOLO_DARK);
-		builder.setTitle("消息");
+		builder.setTitle("消息(Information)");
 		View view = LayoutInflater.from(this).inflate(R.layout.userinfo, null);
 		TextView versioncode = (TextView) view.findViewById(R.id.versioncode);
 		Button ipoint = (Button) view.findViewById(R.id.ipoint);
@@ -202,7 +202,7 @@ public class HomeActivity extends Activity {
 		autostart.setOnCheckedChangeListener(new OnCheckedChangeListenerImpl());
 		msg.setText(message);
 		builder.setView(view);
-		builder.setPositiveButton("关闭", null);
+		builder.setPositiveButton("关闭(Close)", null);
 		builder.create().show();
 	}
 
@@ -284,7 +284,7 @@ public class HomeActivity extends Activity {
 			}else if (msg.what == 100) {
 				pd.dismiss();
 				if (msg.arg1 == 1) {
-					showinfo("到期时间：" + msg.obj + "\r\n登录标识："
+					showinfo("到期时间(Expiration Date)：" + msg.obj + "\r\n登录标识(Login ID)："
 							+ Utils.getLocalMacAddressFromIp(HomeActivity.this));
 				}
 			}else{

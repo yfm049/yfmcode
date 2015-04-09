@@ -61,7 +61,7 @@ public class SqliteUtils extends SQLiteOpenHelper {
 		List<LiveTV> livelist=new ArrayList<LiveTV>();
 		LiveTV qb=new LiveTV();
 		qb.setId(-2);
-		qb.setName("全部");
+		qb.setName("全部(ALL)");
 		livelist.add(qb);
 		SQLiteDatabase db=this.getReadableDatabase();
 		String sql="select gid,name from iptvgroup group by gid,name";
@@ -75,7 +75,7 @@ public class SqliteUtils extends SQLiteOpenHelper {
 		}
 		LiveTV sc=new LiveTV();
 		sc.setId(-1);
-		sc.setName("收藏");
+		sc.setName("收藏(Favorite)");
 		livelist.add(sc);
 		cursor.close();
 		db.close();

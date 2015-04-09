@@ -76,7 +76,7 @@ public class LoginActivity extends Activity {
 				String active = name.getText().toString();
 				String password = pass.getText().toString();
 				if("".equals(active)||"".equals(password)){
-					showalert("消息","用户名或密码不能为空");
+					showalert("消息(message)","用户名或密码不能为空(The user name or password cannot be empty)");
 				}else{
 					autologin();
 				}
@@ -105,7 +105,7 @@ public class LoginActivity extends Activity {
 		Builder builder = new Builder(this);
 		builder.setTitle(title);
 		builder.setMessage(msg);
-		builder.setPositiveButton("确定", null);
+		builder.setPositiveButton("确定(confirm)", null);
 		alert = builder.create();
 		alert.show();
 	}
@@ -113,16 +113,16 @@ public class LoginActivity extends Activity {
 	private void show() {
 		pd = new ProgressDialog(LoginActivity.this,
 				ProgressDialog.THEME_HOLO_DARK);
-		pd.setTitle("正在进行认证");
-		pd.setMessage("正在进行认证,请稍后...");
+		pd.setTitle("消息(message)");
+		pd.setMessage("正在进行认证,请稍后(Is for certification, please later)...");
 		pd.setCancelable(false);
 		pd.show();
 	}
 	private void showhuifudialog() {
 		pd = new ProgressDialog(LoginActivity.this,
 				ProgressDialog.THEME_HOLO_DARK);
-		pd.setTitle("正在进行下载");
-		pd.setMessage("正在进行下载,请稍后...");
+		pd.setTitle("消息(message)");
+		pd.setMessage("正在进行下载,请稍后(Is to download, please later)...");
 		pd.setCancelable(false);
 		pd.show();
 	}
@@ -151,7 +151,7 @@ public class LoginActivity extends Activity {
 			DownLoadThread dt = new DownLoadThread("http://115.28.139.85:88/86/minipad.apk", file,
 					new DownloadThreadListenerImpl());
 			dt.start();
-			Toast.makeText(this, "开始下载", Toast.LENGTH_SHORT).show();
+			Toast.makeText(this, "开始下载(Download Start)", Toast.LENGTH_SHORT).show();
 		}
 	}
 	class DownloadThreadListenerImpl implements DownloadThreadListener {
@@ -185,9 +185,9 @@ public class LoginActivity extends Activity {
 	}
 	public void showinstall(final File file) {
 		Builder builder = new Builder(this);
-		builder.setTitle("安装");
-		builder.setMessage("下载完成,是否安装...");
-		builder.setPositiveButton("确定", new DialogInterface.OnClickListener() {
+		builder.setTitle("消息(message)");
+		builder.setMessage("下载完成(Download Complete),是否安装(install?)...");
+		builder.setPositiveButton("确定(confirm)", new DialogInterface.OnClickListener() {
 
 			@Override
 			public void onClick(DialogInterface arg0, int arg1) {
@@ -200,7 +200,7 @@ public class LoginActivity extends Activity {
 
 			}
 		});
-		builder.setNegativeButton("取消", null);
+		builder.setNegativeButton("取消(cancel)", null);
 		AlertDialog dialog = builder.create();
 		dialog.getWindow()
 				.setType(WindowManager.LayoutParams.TYPE_SYSTEM_ALERT);
@@ -222,9 +222,11 @@ public class LoginActivity extends Activity {
 				tohome();
 			} else if (msg.what == -1) {
 				if(msg.arg1==1){
-					showalert("消息", "链接服务器失败");
+					showalert("消息(message)", "链接服务器失败(Link to the server failed)");
 				}else if(msg.arg1==2){
-					showalert("消息", "认证失败,用户名或密码错误");
+					showalert("消息(message)", "认证失败,用户名或密码错误(Authentication failure, the user name or password error)");
+				}else if(msg.arg1==3){
+					showalert("消息(message)", "帐号已过期，请续费。This accont is expired,please renew");
 				}
 			}else if(msg.what==2){
 				showinstall((File) msg.obj);

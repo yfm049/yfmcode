@@ -108,7 +108,7 @@ public class HttpUtils {
 	public void download(){
 		
 	}
-	public boolean parsexml(String xml) {
+	public int parsexml(String xml) {
 		if (xml != null && !"".equals(xml)) {
 			SqliteUtils su=new SqliteUtils(context);
 			su.init();
@@ -123,7 +123,9 @@ public class HttpUtils {
 				while (ite.hasNext()) {
 					Element ele = ite.next();
 					if ("ret".equals(ele.getName())) {
-						return false;
+						String ret=ele.getStringValue();
+						Log.i("ret", ret+"---");
+						return Integer.parseInt(ret);
 					}else if("Category".equals(ele.getName())){
 						String gid=ele.attributeValue("id");
 						String name=ele.attributeValue("name");
@@ -145,17 +147,17 @@ public class HttpUtils {
 					}
 				}
 				db.setTransactionSuccessful();
-				return true;
+				return -2;
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-				return false;
+				return -1;
 			}finally{
 				db.endTransaction();
 				db.close();
 			}
 		}
-		return false;
+		return -1;
 	}
 
 	public List<TvInfo> gettvList(String url) {
