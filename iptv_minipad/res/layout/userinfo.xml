@@ -13,7 +13,7 @@
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="版本号："
+            android:text="版本号(version number)："
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <TextView
@@ -35,7 +35,7 @@
             android:id="@+id/message"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="用户信息"
+            android:text="用户信息(user information)"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
     </LinearLayout>
@@ -49,7 +49,7 @@
             android:id="@+id/autostart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="开机启动" />
+            android:text="开机启动(Auto Startup)" />
 
     </LinearLayout>
 
@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:tag="http://dl.seasoniptv.com:8080/vod.apk"
-            android:text="iPoint" />
+            android:text="Update1" />
 
         <Button
             android:id="@+id/player"
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:tag="http://dl.seasoniptv.com:8080/player.apk"
-            android:text="Player" />
+            android:text="Update2" />
 
         <Button
             android:id="@+id/cleaner"

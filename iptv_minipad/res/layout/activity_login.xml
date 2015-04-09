@@ -22,7 +22,7 @@
                 android:id="@+id/fname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="用户名："
+                android:text="用户名（Login ID）："
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="@color/baise" />
 
@@ -43,7 +43,7 @@
                 android:id="@+id/ordertitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="密    码："
+                android:text="密    码   (password)："
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="@color/baise" />
 
@@ -66,23 +66,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="登录" />
+                android:text="登录(login)" />
 
             <Button
                 android:id="@+id/button1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="注销" 
-                android:onClick="zhuxiao"/>
+                android:onClick="zhuxiao"
+                android:text="注销(logout)" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="恢复"
-                android:onClick="huifu" />
+                android:onClick="huifu"
+                android:text="恢复(restore)" />
 
         </LinearLayout>
 

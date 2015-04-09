@@ -47,7 +47,7 @@
                     android:id="@+id/title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="分类"
+                    android:text="分类(ALL)"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@color/baise"
                     android:textSize="@dimen/title_size" />
@@ -99,7 +99,7 @@
                     android:id="@+id/ordertitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="预告"
+                    android:text="预告(EPG)"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@color/baise"
                     android:textSize="@dimen/title_size" />

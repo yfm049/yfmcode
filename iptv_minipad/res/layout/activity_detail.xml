@@ -21,7 +21,7 @@
                 android:id="@+id/partid"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="影片详情"
+                android:text="影片详情(The film details)"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="#afafaf"
                 android:textSize="30sp" />
