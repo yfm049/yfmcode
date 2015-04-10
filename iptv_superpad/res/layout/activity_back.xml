@@ -27,7 +27,7 @@
                     android:id="@+id/appname"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="回放频道"
+                    android:text="回放频道(Channel List)"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textColor="@color/baise" />
             </LinearLayout>
@@ -65,7 +65,7 @@
                     android:id="@+id/versioncode"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="节目列表"
+                    android:text="节目列表(Programme list)"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textColor="@color/baise" />
             </LinearLayout>

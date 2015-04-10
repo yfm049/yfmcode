@@ -16,7 +16,7 @@
             android:id="@+id/appname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="所有应用"
+            android:text="所有应用(All Apps)"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="@color/baise" />
 
