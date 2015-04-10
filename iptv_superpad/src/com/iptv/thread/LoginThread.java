@@ -27,10 +27,13 @@ public class LoginThread extends Thread{
 			Message msg=handler.obtainMessage();
 			String xml=hu.doget(HttpUtils.baseurl+url);
 			if(xml!=null){
-				boolean isok=hu.parsexml(xml);
+				int isok=hu.parsexml(xml);
 				
-				if(isok){
+				if(isok==-2){
 					msg.what=1;//认证成功
+				}else if(isok==2){
+					msg.what=-1;
+					msg.arg1=3;//续费;
 				}else{
 					msg.what=-1;
 					msg.arg1=2;//认证失败;
@@ -45,6 +48,7 @@ public class LoginThread extends Thread{
 			e.printStackTrace();
 		}
 	}
+	
 	
 	
 }
