@@ -13,12 +13,12 @@ import org.androidannotations.annotations.ViewById;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.net.Uri;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.forcetech.android.ForceTV;
+import com.iptv.pro.PlayerActivity;
 import com.iptv.season.R;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.pro.adapter.PartAdapter;
@@ -109,8 +109,8 @@ public class DetailActivity extends Activity {
 	}
 	@UiThread
 	public void play(String url){
-		Intent intent = new Intent(this,PlayerActivity_.class);
-		intent.setData(Uri.parse(url));
+		Intent intent = new Intent(this,PlayerActivity.class);
+		intent.putExtra("prg", url);
         startActivity(intent);
 //        PackageManager pm = this.getPackageManager();
 //        List<ResolveInfo> rilist=pm.queryIntentActivities(intent, PackageManager.MATCH_DEFAULT_ONLY);
