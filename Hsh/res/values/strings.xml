@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hsh</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_home">首页</string>
+    <string name="nav_category">分类</string>
+    <string name="nav_cart">购物车</string>
+    <string name="nav_mine">我的</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="blank">#000000</color>
+    <color name="home_item_bg">#ececec</color>
+    <color name="text_red">#fb5954</color>
+    <color name="category_left">#f3f3f3</color>
+    <color name="divider_color">#dfdfdf</color>
+</resources>
