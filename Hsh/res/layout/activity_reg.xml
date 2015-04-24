@@ -95,7 +95,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/login_but"
+            android:id="@+id/next_but"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

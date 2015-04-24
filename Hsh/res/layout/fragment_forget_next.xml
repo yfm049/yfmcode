@@ -5,20 +5,31 @@
     android:background="@color/white"
     android:orientation="vertical" >
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/title_bg"
-        android:gravity="center" >
+        android:background="@drawable/title_bg">
+
+        <ImageView
+            android:id="@+id/back_but"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dip"
+            android:clickable="true"
+            android:src="@drawable/back_but" />
 
         <TextView
             android:id="@+id/cname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
             android:text="找回密码"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="@color/white" />
-    </LinearLayout>
+
+    </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -68,7 +79,7 @@
                 android:singleLine="true" />
 
             <ImageView
-                android:id="@+id/imageView1"
+                android:id="@+id/code_but"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/cod_but_bg" />
@@ -76,7 +87,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/login_but"
+            android:id="@+id/next_but"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

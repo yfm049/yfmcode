@@ -10,7 +10,8 @@
         android:layout_height="wrap_content"
         android:background="@drawable/title_bg"
         android:gravity="center"
-        android:padding="6dp" >
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
 
         <ImageView
             android:id="@+id/imgcode"
