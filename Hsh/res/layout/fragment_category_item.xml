@@ -12,7 +12,7 @@
         android:padding="6dp" >
 
         <ImageView
-            android:id="@+id/imageView1"
+            android:id="@+id/imgcode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/category_right_img" />

@@ -13,7 +13,7 @@
         android:padding="6dp" >
 
         <ImageView
-            android:id="@+id/imageView1"
+            android:id="@+id/imgcode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/logo" />
@@ -102,7 +102,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:orientation="vertical" >
-
+				
                 <ImageView
                     android:id="@+id/imageView5"
                     android:layout_width="match_parent"

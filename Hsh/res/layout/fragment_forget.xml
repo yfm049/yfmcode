@@ -15,7 +15,7 @@
             android:id="@+id/cname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="用户登录"
+            android:text="找回密码"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="@color/white" />
     </LinearLayout>
@@ -33,16 +33,6 @@
             android:background="@drawable/edittext_default"
             android:ems="10"
             android:hint="用户名/邮箱/手机" />
-
-        <EditText
-            android:id="@+id/password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/edittext_default"
-            android:ems="10"
-            android:hint="输入密码"
-            android:inputType="textPassword" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -76,7 +66,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:clickable="true"
                     android:text="换一张"
                     android:textAppearance="?android:attr/textAppearanceMedium" />
 
@@ -84,55 +73,17 @@
 
         </LinearLayout>
 
-        <LinearLayout
+        <Button
+            android:id="@+id/login_but"
+            style="?android:attr/buttonStyleSmall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
-
-            <Button
-                android:id="@+id/reg_but"
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:layout_weight="1"
-                android:background="@drawable/button_bg"
-                android:minHeight="35dp"
-                android:text="注册"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="@color/white" />
-
-            <Button
-                android:id="@+id/login_but"
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="25dp"
-                android:layout_weight="1"
-                android:background="@drawable/button_bg"
-                android:minHeight="35dp"
-                android:text="登录"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="@color/white" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:gravity="right" >
-
-            <TextView
-                android:id="@+id/forget_but"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:clickable="true"
-                android:text="忘记密码?"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
-
-        </LinearLayout>
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_bg"
+            android:minHeight="35dp"
+            android:text="下一步"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
 
     </LinearLayout>
 
