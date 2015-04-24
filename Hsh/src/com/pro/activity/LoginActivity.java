@@ -38,7 +38,7 @@ public class LoginActivity extends BaseActivity {
 	//Íü¼ÇÃÜÂë
 	@Click
 	public void forget_but(){
-		RegActivity_.intent(LoginActivity.this).start();
+		ForgetActivity_.intent(LoginActivity.this).start();
 	}
 	
 	

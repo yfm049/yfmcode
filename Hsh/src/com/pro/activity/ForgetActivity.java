@@ -1,32 +1,19 @@
 package com.pro.activity;
 
-import org.androidannotations.annotations.Click;
+import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
-import org.androidannotations.annotations.ViewById;
-
-import android.widget.EditText;
-import android.widget.ImageView;
 
 import com.pro.base.BaseActivity;
+import com.pro.fragment.ForgetFragment_;
 import com.pro.hsh.R;
 
-@EActivity(R.layout.activity_reg)
+@EActivity(R.layout.activity_forget)
 public class ForgetActivity extends BaseActivity {
 	
-	@ViewById
-	public EditText name,password,code;
-	@ViewById
-	public ImageView imgcode;
 	
-	@Click
-	public void login_but(){
-		MainActivity_.intent(ForgetActivity.this).start();
-		ForgetActivity.this.finish();
-	}
-	
-	@Click
-	public void hyz_but(){
-		
+	@AfterViews
+	public void init(){
+		pushFragment(ForgetFragment_.builder().build());
 	}
 	
 }
