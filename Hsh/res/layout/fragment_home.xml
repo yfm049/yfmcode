@@ -21,7 +21,7 @@
 
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="bottom|center"
             android:padding="3dp" >
@@ -31,7 +31,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="3dp"
-                android:text="河北石家庄"
+                android:text="石家庄"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="@color/white" />
 
@@ -56,6 +56,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/select_bg" />
+
             </LinearLayout>
         </LinearLayout>
 
