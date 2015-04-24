@@ -10,36 +10,23 @@ import android.widget.ImageView;
 import com.pro.base.BaseActivity;
 import com.pro.hsh.R;
 
-@EActivity(R.layout.activity_login)
-public class LoginActivity extends BaseActivity {
+@EActivity(R.layout.activity_reg)
+public class RegActivity extends BaseActivity {
 	
 	@ViewById
 	public EditText name,password,code;
 	@ViewById
 	public ImageView imgcode;
 	
-	//登录
 	@Click
 	public void login_but(){
-		MainActivity_.intent(LoginActivity.this).start();
-		LoginActivity.this.finish();
-	}
-	//注册
-	@Click
-	public void reg_but(){
-		RegActivity_.intent(LoginActivity.this).start();
+		MainActivity_.intent(RegActivity.this).start();
+		RegActivity.this.finish();
 	}
 	
-	//换一个验证码
 	@Click
 	public void hyz_but(){
 		
 	}
-	//忘记密码
-	@Click
-	public void forget_but(){
-		RegActivity_.intent(LoginActivity.this).start();
-	}
-	
 	
 }
