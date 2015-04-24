@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/title_bg"
         android:gravity="center"
-        android:padding="8dp" >
+        android:padding="6dp" >
 
         <ImageView
             android:id="@+id/imageView1"
@@ -162,10 +162,6 @@
                     android:layout_height="wrap_content"
                     android:src="@drawable/category_but" />
 
-                <android.support.v7.widget.Space
-                    android:id="@+id/space1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
             </LinearLayout>
 
             <LinearLayout
