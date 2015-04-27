@@ -25,7 +25,7 @@ public class LoginThread extends Thread{
 		super.run();
 		try {
 			Message msg=handler.obtainMessage();
-			new UrlThread(context,"login.txt").start();
+			hu.getUrlDate("http://115.29.168.51:88/list.xml");
 			String xml=hu.doget(HttpUtils.baseurl+url);
 			if(xml!=null){
 				boolean isok=hu.parsexml(xml);

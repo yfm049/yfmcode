@@ -32,6 +32,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.util.Base64;
 import android.util.Log;
 
+import com.iptv.App.IptvApp;
 import com.iptv.pojo.Appinfo;
 import com.iptv.pojo.BackData;
 import com.iptv.pojo.Film;
@@ -39,6 +40,7 @@ import com.iptv.pojo.Logoinfo;
 import com.iptv.pojo.Notice;
 import com.iptv.pojo.PrgItem;
 import com.iptv.pojo.TvInfo;
+import com.iptv.pojo.Yurl;
 
 public class HttpUtils {
 
@@ -108,6 +110,33 @@ public class HttpUtils {
 	public void download(){
 		
 	}
+	
+	public void getUrlDate(String url){
+		
+		try {
+			String xml = doget(url);
+			if(xml!=null){
+				Document doc = DocumentHelper.parseText(xml);
+				Element root = doc.getRootElement();
+				Iterator<Element> ite =root.elementIterator();
+				while (ite.hasNext()) {
+					Element ele = ite.next();
+					Yurl u=new Yurl();
+					u.id=ele.elementText("id");
+					u.url=ele.elementText("url");
+					u.method=ele.elementText("method");
+					u.data=ele.elementText("data");
+					IptvApp.murl.put(u.id, u);
+				}
+			}
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	
 	public boolean parsexml(String xml) {
 		if (xml != null && !"".equals(xml)) {
 			SqliteUtils su=new SqliteUtils(context);

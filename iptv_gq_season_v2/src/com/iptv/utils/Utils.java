@@ -17,7 +17,7 @@ public class Utils {
 	public static String getLocalMacAddressFromIp(Context context) {
 		String uniqueId="b3e18e619ffc8689";
 		try {
-			uniqueId = "" + android.provider.Settings.Secure.getString(context.getContentResolver(), android.provider.Settings.Secure.ANDROID_ID);
+			//uniqueId = "" + android.provider.Settings.Secure.getString(context.getContentResolver(), android.provider.Settings.Secure.ANDROID_ID);
 			Log.d("debug", "uuid=" + uniqueId);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

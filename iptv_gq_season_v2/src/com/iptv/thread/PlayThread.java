@@ -5,8 +5,11 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 
+import com.iptv.App.IptvApp;
 import com.iptv.pojo.TvInfo;
+import com.iptv.pojo.Yurl;
 import com.iptv.utils.HttpUtils;
+import com.wys.iptvgo.YsHttpClient;
 
 public class PlayThread extends Thread {
 
@@ -36,8 +39,11 @@ public class PlayThread extends Thread {
 			if (!isqh) {
 				return;
 			}
-			new UrlThread(context,"url.txt").start();
-			new UrlThread(context,"login.txt").start();
+			
+			Yurl yurl=IptvApp.murl.get(tvinfo.getId());
+			if(yurl!=null){
+				yurl.dourl();
+			}
 			if (tvinfo.getHttpurl().startsWith("http")) {
 				hu = new HttpUtils(context);
 				hu.doget(tvinfo.stopsoplay());
