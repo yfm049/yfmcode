@@ -23,7 +23,7 @@
                 android:id="@+id/fname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="用户名："
+                android:text="账号："
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="@color/baise" />
 
@@ -33,7 +33,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@drawable/edittext_c"
-                android:ems="10" />
+                android:ems="10"
+                android:cursorVisible="true" 
+                android:textCursorDrawable="@drawable/color_cursor"/>
 
         </LinearLayout>
 
@@ -47,7 +49,7 @@
                 android:id="@+id/ordertitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="密    码："
+                android:text="密码："
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="@color/baise" />
 
@@ -58,7 +60,9 @@
                 android:layout_weight="1"
                 android:background="@drawable/edittext_c"
                 android:ems="10"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                android:cursorVisible="true" 
+                android:textCursorDrawable="@drawable/color_cursor"/>
 
         </LinearLayout>
 
