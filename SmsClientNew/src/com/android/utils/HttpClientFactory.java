@@ -27,7 +27,7 @@ import org.json.JSONObject;
 
 public class HttpClientFactory {
 	private static DefaultHttpClient httpClient;
-	public static final String httpurl="http://blin.v018010.10000net.cn/";
+	public static final String httpurl="http://yjgb.vxg201.10000net.cn/";
 	//public static final String httpurl="http://10.129.213.18:8080/SmsServer/";
 	public static DefaultHttpClient getHttpClient() {
 		if (httpClient == null) {

