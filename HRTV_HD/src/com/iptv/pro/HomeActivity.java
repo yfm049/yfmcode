@@ -23,8 +23,11 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -193,12 +196,29 @@ public class HomeActivity extends Activity {
 		pd.show();
 	}
 
-	private void showinfo(String message) {
-		Builder builder = new Builder(this, AlertDialog.THEME_HOLO_DARK);
+	private void showinfo(String message){
+		Builder builder=ComUtils.createBuilder(this);
 		builder.setTitle("ÏûÏ¢");
-		builder.setMessage(message);
+		View view=LayoutInflater.from(this).inflate(R.layout.userinfo, null);
+		TextView msg=(TextView)view.findViewById(R.id.message);
+		CheckBox autostart=(CheckBox)view.findViewById(R.id.autostart);
+		autostart.setChecked(ComUtils.getConfig(this, "isautostart", false));
+		autostart.setOnCheckedChangeListener(new OnCheckedChangeListenerImpl());
+		msg.setText(message);
+		builder.setView(view);
 		builder.setPositiveButton("¹Ø±Õ", null);
 		builder.create().show();
+	}
+	
+	class OnCheckedChangeListenerImpl implements CompoundButton.OnCheckedChangeListener{
+
+		@Override
+		public void onCheckedChanged(CompoundButton arg0, boolean arg1) {
+			// TODO Auto-generated method stub
+			ComUtils.setConfig(HomeActivity.this, "isautostart", arg1);
+		}
+
+		
 	}
 
 	public boolean openCLD(String packageName) {

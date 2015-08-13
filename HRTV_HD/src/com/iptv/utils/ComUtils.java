@@ -11,15 +11,18 @@ import java.util.Enumeration;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
+import android.annotation.TargetApi;
+import android.app.AlertDialog;
+import android.app.AlertDialog.Builder;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
+import android.os.Build;
 import android.os.Environment;
 import android.util.Base64;
-import android.util.Log;
 
 public class ComUtils {
 
@@ -41,6 +44,14 @@ public class ComUtils {
 		return uniqueId;
 	}
 	
+	@TargetApi(Build.VERSION_CODES.HONEYCOMB)
+	public static Builder createBuilder(Context context){
+		if(Build.VERSION.SDK_INT>10){
+			return new Builder(context, AlertDialog.THEME_HOLO_DARK);
+		}else{
+			return new Builder(context);
+		}
+	}
 	
 	public static String getrestext(Context context,int id){
 		CharSequence cs=context.getResources().getText(id);
