@@ -26,6 +26,7 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.forcetech.android.ForceTV;
 import com.iptv.HRTV.R;
 import com.iptv.play.Player;
 import com.iptv.pojo.PrgItem;
@@ -34,7 +35,9 @@ import com.iptv.thread.ForceTvThread;
 import com.iptv.thread.SeekBarUpdateThread;
 import com.iptv.utils.ComUtils;
 import com.iptv.utils.ForceTvUtils;
+import com.iptv.utils.LogUtils;
 import com.iptv.utils.NetUtils;
+import com.iptv.utils.VideoStreamUtils;
 
 public class BackPlayActivity extends Activity {
 
@@ -62,6 +65,7 @@ public class BackPlayActivity extends Activity {
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON,
 				WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		super.setContentView(R.layout.activity_playback);
+		ForceTV.initForceClient(); 
 		menuview=LayoutInflater.from(this).inflate(R.layout.back_play_menu, null);
 		playSeek = (SeekBar) menuview.findViewById(R.id.playseek);
 		currtime = (TextView) menuview.findViewById(R.id.currtime);
@@ -281,6 +285,13 @@ public class BackPlayActivity extends Activity {
 			return false;
 		}
 
+	}
+	@Override
+	protected void onDestroy() {
+		// TODO Auto-generated method stub
+		super.onDestroy();
+		player.release();
+		ForceTvUtils.StopChan();
 	}
 
 }

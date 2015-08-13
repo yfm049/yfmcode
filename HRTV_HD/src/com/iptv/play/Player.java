@@ -117,7 +117,7 @@ public class Player {
 	public void release(){
 		if(mediaplayer!=null){
 			LogUtils.write(TAG, "mediaplayer  release");
-			ForceTvUtils.StopChan();
+			
 			mediaplayer.release();
 		}
 	}

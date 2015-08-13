@@ -27,6 +27,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.iptv.HRTV.R;
 import com.iptv.thread.TimeThread;
@@ -156,12 +157,13 @@ public class HomeActivity extends Activity {
 		public void handleMessage(Message msg) {
 			// TODO Auto-generated method stub
 			super.handleMessage(msg);
-			if (msg.what == 100) {
+			if (msg.what == UserInfoThread.userinfosuc) {
 				pd.dismiss();
-				if (msg.arg1 == 1) {
-					showinfo("到期时间：" + msg.obj + "\r\n登录标识："
-							+ ComUtils.getLocalMacAddressFromIp(HomeActivity.this));
-				}
+				showinfo("到期时间：" + msg.obj + "\r\n登录标识："+ ComUtils.getLocalMacAddressFromIp(HomeActivity.this));
+			}
+			if (msg.what == UserInfoThread.userinfofail) {
+				pd.dismiss();
+				Toast.makeText(HomeActivity.this, "获取失败", Toast.LENGTH_SHORT).show();
 			}
 			if (msg.what == 200) {
 				Calendar calendar = Calendar.getInstance();

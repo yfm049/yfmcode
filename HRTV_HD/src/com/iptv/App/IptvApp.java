@@ -15,7 +15,7 @@ public class IptvApp extends Application {
 	public void onCreate() {
 		// TODO Auto-generated method stub
 		super.onCreate();
-		ForceTV.initForceClient(); 
+		
 		HttpClientHelper.baseurl=this.getResources().getText(R.string.httpurl).toString();
 		Intent service=new Intent(this,UpdateService.class);
 		this.startService(service);

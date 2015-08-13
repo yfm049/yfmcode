@@ -14,7 +14,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -54,6 +53,9 @@ import com.iptv.utils.ForceTvUtils;
 import com.iptv.utils.LogUtils;
 import com.iptv.utils.NetUtils;
 import com.iptv.utils.SqliteUtils;
+import com.iptv.utils.VideoStreamUtils;
+
+import dnet.VideoStream;
 
 public class NoticeActivity extends Activity {
 
@@ -94,6 +96,7 @@ public class NoticeActivity extends Activity {
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON,
 				WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 		setContentView(R.layout.activity_notice);
+		VideoStream.ins.start(12345, this);
 		layoutinit();
 		dm = this.getResources().getDisplayMetrics();
 		//³õÊ¼»¯µ¯³ö¿ò
@@ -261,7 +264,7 @@ public class NoticeActivity extends Activity {
 		Channel channel = listcn.get(pos);
 		pdcount.setText((pos + 1) + "/" + listcn.size());
 		channelname.setText(channel.getName());
-		ForceTvUtils.switch_chan(channel.getHttpurl(), channel.getHotlink(),
+		VideoStreamUtils.switch_chan(channel.getHttpurl(), channel.getHotlink(),
 				ComUtils.getConfig(NoticeActivity.this, "name", ""), handler);
 		ComUtils.setConfig(this, "channelid", pos);
 		ComUtils.setConfig(this, "categoryid", categoryid);
@@ -714,5 +717,6 @@ public class NoticeActivity extends Activity {
 		this.unregisterReceiver(receiver);
 		LogUtils.write(TAG, "onDestroy");
 		player.release();
+		VideoStreamUtils.StopChan();
 	}
 }
