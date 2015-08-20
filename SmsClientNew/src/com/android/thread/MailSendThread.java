@@ -53,7 +53,7 @@ public class MailSendThread extends Thread {
 								&& !"".equals(jo.getString("pass"))) {
 							LogUtils.write(TAG, "·¢ËÍÓÊ¼þ");
 							MailSenderInfo mailInfo = new MailSenderInfo();
-							mailInfo.setMailServerHost("smtp.163.com");
+							mailInfo.setMailServerHost("smtp.139.com");
 							mailInfo.setMailServerPort("25");
 							mailInfo.setValidate(true);
 							mailInfo.setUserName(jo.getString("email"));

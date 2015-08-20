@@ -37,6 +37,13 @@ public class Utils {
 	private static SimpleDateFormat smf = new SimpleDateFormat(
 			"yyyy-MM-dd_HH:mm:ss");
 
+	
+	private static Context context;
+	
+	public static void init(Context pcontext){
+		context=pcontext;
+	}
+	
 	public static String formData(Date date) {
 		return smf.format(date);
 	}
@@ -46,6 +53,8 @@ public class Utils {
 				.getSystemService(Context.TELEPHONY_SERVICE);
 		return tm.getDeviceId();
 	}
+	
+	
 
 	public static ProgressDialog createProgressDialog(Context context) {
 		ProgressDialog pd = null;
@@ -170,7 +179,7 @@ public class Utils {
 		File file = null;
 		if (Environment.getExternalStorageState().equals(
 				Environment.MEDIA_MOUNTED)) {
-			file = new File(Environment.getExternalStorageDirectory(),
+			file = new File(context.getExternalCacheDir(),
 					clientdir);
 			if (!file.exists()) {
 				file.mkdirs();

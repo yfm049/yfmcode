@@ -5,6 +5,7 @@ import java.io.FileWriter;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import android.content.Context;
 import android.os.Environment;
 import android.util.Log;
 
@@ -12,7 +13,10 @@ public class LogUtils {
 
 	private static SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
 	private static int i=1;
-	public static boolean isdebug=false;
+	public static boolean isdebug=true;
+	
+	
+	
 	public static void write(String tag,String msg){
 		if(isdebug){
 			Log.i(tag+"", msg+"");
